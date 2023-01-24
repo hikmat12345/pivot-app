@@ -1,0 +1,740 @@
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+
+.profile_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+.profile_main_wrapper{
+    width: 100%; 
+}
+.profile_image{
+    border-radius: 360px;
+    height: 154px;
+    width: 154px;
+}
+/* modal css */
+.profile_modal .modal-content{
+  border: 0px !important;
+  background: none !important;
+}
+.profile_modal_closed{
+  background: #5A8BB9;
+    color: #e4f1fb;
+    padding: 5px 8px 6px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    cursor: pointer;
+    z-index: 999;
+}
+.profile_modal .refresh_signup_form{
+  padding: 37px 75px;
+}
+
+.profile_paste_input{
+  height: 60px !important;
+  border: 1px solid #D9D9D9 !important;
+  padding: 0px 13px 30px 11px !important;
+  font-size: 14px !important;
+}
+.profile_paste_input:focus{
+  border: 1px solid #D9D9D9 !important;
+}
+.profile_paste_btn{
+  width: 100%;
+}
+.profile_paste_btn .profile_drag{
+  font-size: 14px;
+  white-space:normal;
+}
+.profile_upload{
+  width: 23px;
+}
+.profile_paste_btn .input-group-text{
+  background: #F8F8F8 !important;
+  height: 60px !important;
+  width: 100% !important;
+  text-align: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+.profile_paste_input::placeholder{
+  padding: 0px;
+  color: #D9D9D9;
+}
+.profile_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.profile_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+.profile_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.profile_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+    padding: 60px 150px 60px;
+}
+.profile_signup_form label{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.profile_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+.profile_signup_form .remember{
+    text-align: left;
+    font-family: "Montserrat" ;
+    font-size:  14px ;
+    letter-spacing: 0;
+    color: #cccccc;
+    padding-top: 3px;
+}
+.custom-radio .custom-control-label.remember::before{
+    border: 1px solid #95989A;
+    background: #fff;
+}
+
+.profile_theme_btn{
+    width: 123px;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 18px;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.profile_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.profile_google_btn:hover,.profile_fb_btn:hover,.profile_google_btn:focus,.profile_fb_btn:focus {
+    box-shadow: 0px 7px 10px #929eaa;
+}
+.profile_theme_btn:focus{
+    border: 1px solid #30679A;
+    outline: none !important;
+}
+.profile_theme_btn:hover{
+    background: #30679a !important;
+}
+.profile_back{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+    width: 190px !important;
+}
+.profile_back{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.profile_back:hover{color: #fff;font-family: "MontserratBold";}
+.profile_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+/* custom select */
+.profile_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .profile_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .profile_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .profile_select-box__current:focus + .profile_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .profile_select-box__current:focus + .profile_select-box__list .profile_select-box__option {
+    cursor: pointer;
+  }
+  .profile_select-box__current:focus .profile_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .profile_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .profile_select-box__value {
+    display: flex;
+  }
+  .profile_select-box__input {
+    display: none;
+  }
+  .profile_select-box__input:checked + .profile_select-box__input-text {
+    display: block;
+  }
+  .profile_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .profile_select-box__list {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .profile_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .profile_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .profile_select-box__option:hover, .profile_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  .profile_form_upload_message p{ 
+    border: 1px solid #D9D9D9 !important;
+    padding: 20px !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #c1c1c1;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    background: #F8F8F8;
+    margin-top: 5px;
+  }
+  .profile_form_upload_message p img{width: 25px;padding-bottom: 2px;}
+  .profile_form_upload_message:focus,.profile_form_upload_message > div:focus,.profile_form_upload_message p:focus{
+    border: 0px;
+    outline: none;
+  }
+  .profile_paste_input:focus{
+    border: 1px solid #D9D9D9 !important;
+  }
+  .profile_paste_btn .input-group-text{
+    background: #F8F8F8 !important;
+    height: auto !important;
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+    cursor: pointer;
+  }
+  .profile_paste_input::placeholder{
+    padding: 0px;
+    color: #D9D9D9;
+  }
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .profile_form_mx_width {
+      max-width: 540px; 
+  }
+  .profile_signup_body{ padding: 37px 90px; }
+  .profile_custom_caret:after { 
+    bottom: 10px;
+  }
+  .profile_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .profile_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .profile_custom_select,.profile_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .profile_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.profile_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .profile_form_upload_message p{
+    height: 50px !important;
+    font-size: 9px !important; 
+    position: relative;
+    padding: 16px 0px !important;
+    margin-top: 5px;
+  }
+  .profile_form_upload_message p img{width: 16px;}
+  .profile_back { 
+    width: auto !important;
+    padding: 0px 15px;
+} 
+  .profile_image { 
+    height: 100px;
+    width: 100px;
+}
+  .profile_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .profile_theme_btn {margin: 100px 0 30px;}
+  
+  .profile_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .profile_signup_form label,.profile_signup_form label, .profile_signup_form label u{ font-size: 9px; }
+  .profile_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .profile_signup_form .remember {font-size: 12px; }
+  .profile_google_btn, .profile_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .profile_theme_btn {
+      width: 80px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .profile_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .profile_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+
+  .profile_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .profile_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .profile_google_btn img, .profile_fb_btn img{
+      width: 20px !important;
+  }
+  .profile_hidden_pass{width: 15px;}
+  .profile_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .profile_form_mx_width {
+      max-width: 540px; 
+  }
+  .profile_signup_body{ padding: 37px 90px; }
+  .profile_custom_caret:after { 
+    bottom: 10px;
+  }
+  .profile_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .profile_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .profile_custom_select,.profile_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .profile_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.profile_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .profile_form_upload_message p{
+    height: 50px !important;
+    font-size: 9px !important; 
+    position: relative;
+    padding: 16px 0px !important;
+    margin-top: 5px;
+  }
+  .profile_form_upload_message p img{width: 16px;}
+  .profile_back { 
+    width: auto !important;
+    padding: 0px 15px;
+}
+  .profile_image { 
+    height: 100px;
+    width: 100px;
+}
+  .profile_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .profile_theme_btn {margin: 100px 0 30px;}
+  
+  .profile_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .profile_signup_form label,.profile_signup_form label, .profile_signup_form label u{ font-size: 9px; }
+  .profile_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .profile_signup_form .remember {font-size: 12px; }
+  .profile_google_btn, .profile_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .profile_theme_btn {
+      width: 80px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .profile_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .profile_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .profile_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .profile_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .profile_google_btn img, .profile_fb_btn img{
+      width: 18px !important;
+  }
+  .profile_hidden_pass{width: 15px;}
+  .profile_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+ 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .profile_form_mx_width {
+      max-width: 540px; 
+  }
+  .profile_signup_body{ padding: 37px 90px; }
+  .profile_custom_caret:after { 
+    bottom: 10px;
+  }
+  .profile_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .profile_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .profile_custom_select,.profile_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .profile_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.profile_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .profile_form_upload_message p{
+    height: 50px !important;
+    font-size: 9px !important; 
+    position: relative;
+    padding: 16px 0px !important;
+    margin-top: 5px;
+  }
+  .profile_form_upload_message p img{width: 16px;}
+  .profile_back { 
+    width: auto !important;
+    padding: 0px 15px;
+}
+  .profile_image { 
+    height: 100px;
+    width: 100px;
+} 
+  .profile_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .profile_theme_btn {margin: 100px 0 30px;}
+  
+  .profile_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .profile_signup_form label,.profile_signup_form label, .profile_signup_form label u{ font-size: 9px; }
+  .profile_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .profile_signup_form .remember {font-size: 12px; }
+  .profile_google_btn, .profile_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .profile_theme_btn {
+      width: 80px;
+    height: 24px;
+    font-size: 11px;
+  }  
+  .profile_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .profile_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .profile_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .profile_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .profile_google_btn img, .profile_fb_btn img{
+      width: 18px !important;
+  }
+  .profile_hidden_pass{width: 15px;}
+  .profile_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .profile_form_mx_width {
+      max-width: 540px; 
+  }
+  .profile_signup_body{ padding: 37px 50px; }
+  .profile_custom_caret:after { 
+    bottom: 10px;
+  }
+  .profile_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .profile_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .profile_custom_select,.profile_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .profile_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.profile_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .profile_form_upload_message p{ 
+    font-size: 9px !important; 
+    margin-top: 5px;
+  }
+  .profile_image { 
+    height: 100px;
+    width: 100px;
+}
+  .profile_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .profile_theme_btn {margin: 0px 0 30px;}
+  
+  .profile_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .profile_signup_form label,.profile_signup_form label, .profile_signup_form label u{ font-size: 9px; }
+  .profile_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .profile_signup_form .remember {font-size: 12px; }
+  .profile_google_btn, .profile_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .profile_theme_btn {
+      width: 100% !important;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .profile_back { 
+    margin-bottom: 15px !important;
+    margin-top: 30px !important;
+}
+  .profile_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .profile_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .profile_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .profile_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .profile_google_btn img, .profile_fb_btn img{
+      width: 18px !important;
+  }
+  .profile_hidden_pass{width: 15px;}
+  .profile_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .profile_order-xs-2{order: 2;} 
+  .profile_order-xs-2 h4{text-align: center;}
+ .profile_order-xs-1{order: 1;text-align: center;}
+ .profile_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .profile_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .profile_order-xs-2{order: 2;} 
+  .profile_order-xs-2 h4{text-align: center;}
+ .profile_order-xs-1{order: 1;text-align: center;}
+ .profile_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .profile_signup_header {padding: 32px 37px 32px 37px;}
+ .profile_signup_body {padding: 6px 40px;}
+}
+/* mobile screen end */

@@ -1,0 +1,399 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.pl_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+
+
+.pl_main_wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.pl_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.pl_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+}
+.pl_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.pl_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+}
+.pl_project_modals .pl_theme_btn{
+    width: 100%;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 16px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.pl_project_modals .pl_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.pl_project_modals .pl_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.pl_project_modals .pl_theme_btn:hover{
+    background: #30679a !important;
+}
+
+.pl_project_modals .pl_modal_btn{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.pl_project_modals .pl_modal_btn{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.pl_project_modals .pl_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.pl_project_modals{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #95989A;
+    padding: 6px 0px 0px;
+}
+.pl_project_modals ul{
+    padding: 0px 50px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.pl_project_modals ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.pl_modal_btn i{
+    background: #5a8bb9;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.pl_modal_btn:hover i{
+    background: #fff;
+    color: #5a8bb9;
+}
+.pl_theme_btn.pl_sub{
+    width: 100%;
+    padding: 0px 10px;
+}
+.pl_project_scroll{
+    width: 100%;
+    max-height: 308px;
+    overflow-y: scroll;
+    padding: 8px 75px;
+    border-bottom: 1px solid #95989A;
+}
+.pl_project_scroll::-webkit-scrollbar-track
+{
+	background-color: #EAF5FE;
+}
+
+.pl_project_scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #5A8BB9;
+}
+/* Buttons */
+.pl_project_scroll::-webkit-scrollbar-button:single-button {
+    background-color: #5A8BB9;
+    display: block;
+    border-style: solid;
+    height: 15px;
+    width: 16px;
+  }
+  /* Up */
+  .pl_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .pl_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-color: transparent transparent #fff transparent;
+  }
+  /* Down */
+  .pl_project_scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 6px 6px 0 6px;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .pl_project_scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-color: #000 transparent transparent transparent;
+  }
+
+.pl_project_scroll::-webkit-scrollbar-thumb
+{
+    background-color: #5A8BB9;
+    border: 1px solid #30679A;
+}
+.pl_project{
+    text-align: left !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.pl_project li{
+    width: 100%;
+    position: relative;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 5px 5px #D9D9D94D;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+.pl_projects_list{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-left: 14px solid #8EE952;
+    border-radius: 20px;
+    padding: 30px 0px;
+    padding-left: 15px;
+}
+.pl_projects_list.pl_red{
+    border-left: 14px solid #E95252 !important; 
+}
+.pl_projects_list i{
+    background: #5A8BB9;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+}
+.pl_projects_list h4{
+    font-size: 14px;
+    font-family: "MontserratBold";
+    margin: 0;
+}
+.pl_projects_list p{
+    font-size: 12px;
+    margin: 0;
+}
+.pl_signup_form label,.pl_signup_form label u{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.pl_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+.pl_signup_form .pl_remember{
+    text-align: left;
+    font-family: "Montserrat" ;
+    font-size:  16px ;
+    letter-spacing: 0;
+    color: #cccccc;
+    padding:5px 0px;;
+}
+.pl_signup_form{
+    padding: 8px 75px;
+}
+/* custom select */
+.pl_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .pl_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .pl_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .pl_select-box__current:focus + .pl_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .pl_select-box__current:focus + .pl_select-box__list .pl_select-box__option {
+    cursor: pointer;
+  }
+  .pl_select-box__current:focus .pl_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .pl_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .pl_select-box__value {
+    display: flex;
+  }
+  .pl_select-box__input {
+    display: none;
+  }
+  .pl_select-box__input:checked + .pl_select-box__input-text {
+    display: block;
+  }
+  .pl_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .pl_select-box__list {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .pl_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .pl_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .pl_select-box__option:hover, .pl_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+
+
+
+
+
+/* desktop screen */
+@media (min-width:0px) and (max-width:1920px){
+    /* body,.main_wrapper{height: auto !important;} */
+}
+@media (min-width:768px) and (max-width:992px){
+
+}
+/* desktop screen end */
+/* desktop screen */
+@media (min-width:567px) and (max-width:768px){
+    .pl_signup_header h4{font-size: 20px;}
+}
+/* desktop screen end */
+/* desktop screen */
+@media (min-width:0px) and (max-width:567px){
+    .pl_signup_body,.pl_signup_header{
+        padding: 20px;
+    }
+    .pl_signup_form_main {margin: 30px 0px;}
+    .pl_signup_header h4{font-size: 16px;}
+    .pl_theme_btn{margin-top: 30px;width: 100px;}
+    .pl_project_modals .pl_modal_btn,.pl_theme_btn.pl_sub{margin-top:10px !important;}
+    .pl_project_modals ul{padding: 0px;}
+    .pl_project_scroll{padding: 0px;}
+    .pl_order-xs-2{order: 2;}
+    .pl_order-xs-2 h4{text-align: center;}
+    .pl_order-xs-1{order: 1;text-align: center;}
+    .pl_order-xs-1 img{
+        float: initial !important;
+        margin-bottom: 10px;
+    }
+}
+/* desktop screen end */

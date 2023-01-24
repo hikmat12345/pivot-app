@@ -1,0 +1,331 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+.forgot_security_modal_closed{
+    background: #5A8BB9;
+      color: #e4f1fb;
+      padding: 5px 8px 6px 7px;
+      border-radius: 50px;
+      position: absolute;
+      top: 15px;
+      right: 27px;
+      cursor: pointer;
+      z-index: 999;
+    }
+input::placeholder{color: #95989A;}
+.fs_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+.fs_main_wrapper{
+    width: 100%;
+    /* height: 100vh; */
+}
+.fs_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.fs_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+.fs_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.fs_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+    padding: 60px 150px 60px;
+}
+.fs_signup_form label{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.fs_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+
+.fs_theme_btn{
+    width: 123px;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 18px;
+    margin-top: 230px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.fs_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.fs_google_btn:hover,.fs_fb_btn:hover,.fs_google_btn:focus,.fs_fb_btn:focus {
+    box-shadow: 0px 7px 10px #929eaa;
+}
+.fs_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.fs_theme_btn:hover{
+    background: #30679a !important;
+}
+.fs_back{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.fs_back{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.fs_back:hover{color: #fff;font-family: "MontserratBold";}
+.fs_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+    .fs_form_mx_width {
+        max-width: 540px; 
+    }
+    .fs_signup_form .exclaim_img img{width: 18px;}
+    .fs_theme_btn {margin: 140px 0 35px;}
+    .fs_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .fs_signup_form label { font-size: 9px; }
+    .fs_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .fs_signup_form .remember {font-size: 12px; }
+    .fs_google_btn, .fs_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .fs_theme_btn {
+        width: 70px;
+        height: 24px;
+        font-size: 11px;
+    } 
+    .fs_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .fs_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .fs_google_btn img, .fs_fb_btn img{
+        width: 20px !important;
+    }
+    .fs_hidden_pass{width: 15px;}
+    .fs_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+
+
+    /* old */
+    .fs_signup_form_main{margin: 30px 0px;} 
+} 
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+    .fs_form_mx_width {
+        max-width: 540px; 
+    }
+    .fs_signup_form .exclaim_img img{width: 18px;}
+    .fs_theme_btn {margin: 140px 0 35px;}
+    .fs_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .fs_signup_form label { font-size: 9px; }
+    .fs_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .fs_signup_form .remember {font-size: 12px; }
+    .fs_google_btn, .fs_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .fs_theme_btn {
+        width: 70px;
+    height: 24px;
+    font-size: 11px;
+    } 
+    .fs_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .fs_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .fs_google_btn img, .fs_fb_btn img{
+        width: 18px !important;
+    }
+    .fs_hidden_pass{width: 15px;}
+    .fs_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+ 
+    /* old */
+    .fs_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+     .fs_form_mx_width {
+        max-width: 540px; 
+    }
+    .fs_signup_form .exclaim_img img{width: 18px;}
+    .fs_theme_btn {margin: 140px 0 35px;}
+    .fs_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .fs_signup_form label { font-size: 9px; }
+    .fs_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .fs_signup_form .remember {font-size: 12px; }
+    .fs_google_btn, .fs_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .fs_theme_btn {
+        width: 70px;
+    height: 24px;
+    font-size: 11px;
+    } 
+    .fs_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .fs_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .fs_google_btn img, .fs_fb_btn img{
+        width: 18px !important;
+    }
+    .fs_hidden_pass{width: 15px;}
+    .fs_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+    .fs_form_mx_width {
+        max-width: 540px; 
+    }
+    .fs_signup_form .exclaim_img img{width: 18px;}
+    .fs_theme_btn {margin: 140px 0 35px;}
+    .fs_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .fs_signup_form label { font-size: 9px; }
+    .fs_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .fs_signup_form .remember {font-size: 12px; }
+    .fs_google_btn, .fs_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .fs_theme_btn {
+        width: 70px;
+    height: 24px;
+    font-size: 11px;
+    } 
+    .fs_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .fs_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .fs_google_btn img, .fs_fb_btn img{
+        width: 18px !important;
+    }
+    .fs_hidden_pass{width: 15px;}
+    .fs_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+    .fs_order-xs-2{order: 2;} 
+    .fs_order-xs-2 h4{text-align: center;}
+   .fs_order-xs-1{order: 1;text-align: center;}
+   .fs_order-xs-1 img{
+       float: initial !important;
+       margin-bottom: 10px;
+   }
+   .fs_signup_header {padding: 32px 37px 32px 37px;} 
+}
+@media (min-width:0px) and (max-width:400px){
+    .fs_order-xs-2{order: 2;} 
+    .fs_order-xs-2 h4{text-align: center;}
+   .fs_order-xs-1{order: 1;text-align: center;}
+   .fs_order-xs-1 img{
+       float: initial !important;
+       margin-bottom: 10px;
+   }
+   .fs_signup_header {padding: 32px 37px 32px 37px;}
+   .fs_signup_body {padding: 6px 40px;}
+}
+/* mobile screen end */

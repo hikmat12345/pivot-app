@@ -1,0 +1,676 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.pcm_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+
+
+.pcm_main_wrapper{
+    width: 100%;
+    /* height: 100vh; */
+}
+.pcm_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.pcm_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+.pcm_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.pcm_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+} 
+.pcm_project_modals .pcm_theme_btn{
+    width: 100%;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    text-align: center;
+    font-size: 16px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.pcm_project_modals .pcm_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.pcm_project_modals .pcm_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.pcm_project_modals .pcm_theme_btn:hover{
+    background: #30679a !important;
+}
+
+.pcm_project_modals .pcm_modal_btn{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.pcm_project_modals .pcm_modal_btn{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.pcm_project_modals .pcm_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.pcm_project_modals{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #95989A;
+    padding: 6px 0px 0px;
+}
+.pcm_project_modals ul{
+    padding: 0px 50px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.pcm_project_modals ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.pcm_modal_btn i{
+    background: #5a8bb9;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.pcm_modal_btn:hover i{
+    background: #fff;
+    color: #5a8bb9;
+}
+.pcm_theme_btn.pcm_sub{
+    width: 100%;
+    padding: 0px 10px;
+}
+.pcm_project_scroll{
+    width: 100%;
+    max-height: 308px;
+    overflow-y: scroll;
+    padding: 8px 75px;
+    border-bottom: 1px solid #95989A;
+}
+.pcm_project_scroll::-webkit-scrollbar-track
+{
+	background-color: #EAF5FE;
+}
+
+.pcm_project_scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #5A8BB9;
+}
+/* Buttons */
+.pcm_project_scroll::-webkit-scrollbar-button:single-button {
+    background-color: #5A8BB9;
+    display: block;
+    border-style: solid;
+    height: 15px;
+    width: 16px;
+  }
+  /* Up */
+  .pcm_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .pcm_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-color: transparent transparent #fff transparent;
+  }
+  /* Down */
+  .pcm_project_scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 6px 6px 0 6px;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .pcm_project_scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-color: #000 transparent transparent transparent;
+  }
+
+.pcm_project_scroll::-webkit-scrollbar-thumb
+{
+    background-color: #5A8BB9;
+    border: 1px solid #30679A;
+}
+.pcm_project{
+    text-align: left !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.pcm_project li{
+    width: 100%;
+    position: relative;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 5px 5px #D9D9D94D;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+.pcm_projects_list{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-left: 14px solid #8EE952;
+    border-radius: 20px;
+    padding: 30px 0px;
+    padding-left: 15px;
+}
+.pcm_projects_list.pcm_red{
+    border-left: 14px solid #E95252 !important; 
+}
+.pcm_projects_list i{
+    background: #5A8BB9;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+}
+.pcm_projects_list h4{
+    font-size: 14px;
+    font-family: "MontserratBold";
+    margin: 0;
+}
+.pcm_projects_list p{
+    font-size: 12px;
+    margin: 0;
+}
+.pcm_signup_form label,.pcm_signup_form label u{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.pcm_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+.pcm_signup_form .pcm_remember{
+    text-align: left;
+    font-family: "Montserrat" ;
+    font-size:  16px ;
+    letter-spacing: 0;
+    color: #cccccc;
+    padding:5px 0px;;
+}
+.pcm_signup_form{
+    padding: 8px 75px;
+}
+/* custom select */
+.pcm_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .pcm_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .pcm_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .pcm_select-box__current:focus + .pcm_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .pcm_select-box__current:focus + .pcm_select-box__list .pcm_select-box__option {
+    cursor: pointer;
+  }
+  .pcm_select-box__current:focus .pcm_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .pcm_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .pcm_select-box__value {
+    display: flex;
+  }
+  .pcm_select-box__input {
+    display: none;
+  }
+  .pcm_select-box__input:checked + .pcm_select-box__input-text {
+    display: block;
+  }
+  .pcm_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .pcm_select-box__list {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .pcm_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .pcm_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .pcm_select-box__option:hover, .pcm_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+/* modal css */
+.pcm_modal .modal-content{
+  border: 0px !important;
+  background: none !important;
+}
+.pcm_modal_closed{
+  background: #5A8BB9;
+    color: #e4f1fb;
+    padding: 5px 8px 6px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    cursor: pointer;
+}
+.pcm_modal .pcm_signup_form{
+  padding: 60px 150px 60px;
+}
+/* bottom btn */
+.pcm_body{
+  text-align: center;
+  margin: 50px 0px 0px 0px !important;
+}
+.pcm_-text{
+  font-size: 16px !important;
+}
+.pcm_theme_btn{
+  width: 123px;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+  text-align: center;
+  font-size: 18px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.pcm_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.pcm_google_btn:hover,.pcm_fb_btn:hover,.pcm_google_btn:focus,.pcm_fb_btn:focus {
+  box-shadow: 0px 7px 10px #929eaa;
+}
+.pcm_theme_btn:focus{
+  border: 1px solid #30679A;
+  outline: none !important;
+}
+.pcm_theme_btn:hover{
+  background: #30679a !important;
+}
+.pcm_back{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important;
+}
+.pcm_back{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.pcm_back:hover{color: #fff;font-family: "MontserratBold";}
+.pcm_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+.pcm_paste_input{
+  height: 80px !important;
+  border: 1px solid #D9D9D9 !important;
+  padding: 0px 13px 30px 11px !important;
+  font-size: 14px !important;
+}
+.pcm_paste_input:focus{
+  border: 1px solid #D9D9D9 !important;
+}
+.pcm_paste_btn .input-group-text{
+  background: #F8F8F8 !important;
+  height: 80px !important;
+  width: 80px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+.pcm_paste_input::placeholder{
+  padding: 0px;
+  color: #D9D9D9;
+}
+/* end */ 
+.custom_select{
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  height: auto;
+  color: #000;
+  -webkit-appearance: none;
+  border-bottom: 1px solid #95989A;
+}
+.custom_select:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #30679A;
+}
+
+.custom_select optgroup {
+  font-size: 16px;
+  background: #fff;
+  padding: 115px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .pcm_form_mx_width {
+      max-width: 540px; 
+  } 
+  .pcm_body{ margin: 30px 0px 0px 0px !important;}
+  .pcm_text { font-size: 9px !important; }
+  .pcm_theme_btn {margin: 15px 0 20px;}
+  .pcm_signup_header h4 {font-size: 14px !important; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .pcm_signup_form label { font-size: 9px; }
+  .pcm_signup_form input { font-size: 9px;}
+  .pcm_signup_form .remember {font-size: 12px; }
+  .pcm_google_btn, .pcm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .pcm_theme_btn {
+    width: 90px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .pcm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px !important;
+  }
+  .pcm_signup_body { 
+      border-radius: 0px 0px 20px 20px !important;
+      padding: 6px 90px;
+      margin-top: 0px;
+  } 
+  .pcm_hidden_pass{width: 15px;}
+  .pcm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .pcm_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .pcm_form_mx_width {
+      max-width: 540px; 
+  }
+  .pcm_body{ margin: 30px 0px 0px 0px !important;}
+  .pcm_text { font-size: 9px !important; }
+  .pcm_theme_btn {margin: 15px 0 20px;}
+  .pcm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .pcm_signup_form label { font-size: 9px; }
+  .pcm_signup_form input { font-size: 9px;}
+  .pcm_signup_form .remember {font-size: 12px; }
+  .pcm_google_btn, .pcm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .pcm_theme_btn {
+    width: 90px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .pcm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px !important;
+  }
+  .pcm_signup_body { 
+      border-radius: 0px 0px 20px 20px !important;
+      padding: 6px 90px;
+      margin-top: 0px;
+  }
+  .pcm_google_btn img, .pcm_fb_btn img{
+      width: 18px !important;
+  }
+  .pcm_hidden_pass{width: 15px;}
+  .pcm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .pcm_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .pcm_form_mx_width {
+      max-width: 540px; 
+  }
+  .pcm_body{ margin: 30px 0px 0px 0px !important;}
+  .pcm_text { font-size: 9px !important; }
+  .pcm_theme_btn {margin: 15px 0 20px;}
+  .pcm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .pcm_signup_form label { font-size: 9px; }
+  .pcm_signup_form input { font-size: 9px;}
+  .pcm_signup_form .remember {font-size: 12px; }
+  .pcm_google_btn, .pcm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .pcm_theme_btn {
+    width: 90px;
+    height: 24px;
+    font-size: 11px;
+  }  
+  .pcm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px !important;
+  }
+  .pcm_signup_body { 
+      border-radius: 0px 0px 20px 20px !important;
+      padding: 6px 90px;
+      margin-top: 0px;
+  }
+  .pcm_google_btn img, .pcm_fb_btn img{
+      width: 18px !important;
+  }
+  .pcm_hidden_pass{width: 15px;}
+  .pcm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .pcm_form_mx_width {
+      max-width: 540px; 
+  }
+  .pcm_body{ margin: 30px 0px 0px 0px !important;}
+  .pcm_text { font-size: 9px !important; }
+  .pcm_theme_btn {margin: 15px 0 20px;}
+  .pcm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .pcm_signup_form label { font-size: 9px; }
+  .pcm_signup_form input { font-size: 9px;}
+  .pcm_signup_form .remember {font-size: 12px; }
+  .pcm_google_btn, .pcm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .pcm_theme_btn {
+    width: 70px;
+    height: 24px;
+    font-size: 11px;
+} 
+  .pcm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px !important;
+  }
+  .pcm_signup_body { 
+      border-radius: 0px 0px 20px 20px !important;
+      padding: 6px 90px;
+      margin-top: 0px;
+  }
+  .pcm_google_btn img, .pcm_fb_btn img{
+      width: 18px !important;
+  }
+  .pcm_hidden_pass{width: 15px;}
+  .pcm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .pcm_order-xs-2{order: 2;} 
+  .pcm_order-xs-2 h4{text-align: center;}
+ .pcm_order-xs-1{order: 1;text-align: center;}
+ .pcm_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .pcm_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .pcm_order-xs-2{order: 2;} 
+  .pcm_order-xs-2 h4{text-align: center;}
+ .pcm_order-xs-1{order: 1;text-align: center;}
+ .pcm_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .pcm_signup_header {padding: 32px 37px 32px 37px;}
+ .pcm_signup_body {padding: 6px 40px;}
+}
+/* mobile screen end */

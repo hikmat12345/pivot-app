@@ -1,0 +1,206 @@
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.l3_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+
+
+
+
+.l3_main_wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.l3_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.l3_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+}
+.l3_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.l3_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+    padding: 60px 150px 60px;
+}
+.l3_signup_form label{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.l3_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+.l3_signup_form .remember{
+    text-align: left;
+    font-family: "Montserrat" ;
+    font-size:  14px ;
+    letter-spacing: 0;
+    color: #cccccc;
+    padding-top: 3px;
+}
+.custom-radio .custom-control-label.remember::before{
+    border: 1px solid #95989A;
+    background: #fff;
+}
+.l3_password_eye{
+    position: relative;
+}
+.l3_hidden_pass{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    cursor: pointer;
+}
+.l3_social_login{
+    width: 100%;
+    height: auto;
+}
+.l3_social_login label{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.l3_google_btn,.l3_fb_btn{
+    width: 100%;
+    font-size: 20px;
+    font-family: "MontserratBold";
+    background: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.l3_fb_btn{
+    background: #375D8F;
+    color: #fff;
+}
+.l3_theme_btn{
+    width: 123px;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 18px;
+    margin-top: 260px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.l3_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.l3_google_btn:hover,.l3_fb_btn:hover,.l3_google_btn:focus,.l3_fb_btn:focus {
+    box-shadow: 0px 7px 10px #929eaa;
+}
+.l3_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.l3_theme_btn:hover{
+    background: #30679a !important;
+}
+
+.l3_back{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.l3_back{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.l3_back:hover{color: #fff;font-family: "MontserratBold";}
+.l3_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+
+
+
+
+
+
+
+
+
+
+/* desktop screen */
+@media (min-width:0px) and (max-width:1920px){
+    /* body,.main_wrapper{height: auto !important;} */
+}
+@media (min-width:768px) and (max-width:992px){
+
+}
+/* desktop screen end */
+/* desktop screen */
+@media (min-width:567px) and (max-width:768px){
+    .l3_signup_header h4{font-size: 20px;}
+}
+/* desktop screen end */
+/* desktop screen */
+@media (min-width:0px) and (max-width:567px){
+    .l3_signup_body,.l3_signup_header{
+        padding: 30px;
+    }
+    .l3_signup_header h4{font-size: 16px;}
+    .l3_theme_btn{margin-top: 30px;width: 100px;}
+    .l3_order-xs-2{order: 2;}
+    .l3_order-xs-2 h4{text-align: center;}
+    .l3_order-xs-1{order: 1;text-align: center;}
+    .l3_order-xs-1 img{
+        float: initial !important;
+        margin-bottom: 10px;
+    }
+}
+/* desktop screen end */

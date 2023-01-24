@@ -1,0 +1,13 @@
+export const signup='signup';
+export const signin='signin';
+export const confirmsignin='confirmsignin';
+export const signout='signout';
+export const currentsession='currentsession';
+export const emailuser='emailuser';
+export const clearstates='clearstates';
+export const signupconfirm='signupconfirm';
+export const forgotPassword='forgotPassword';
+export const updatePassword='updatePassword';
+export const updatefieldtype='updatefieldtype';
+export const changePassword='changePassword';
+export const getUserEntity='getUserEntity';

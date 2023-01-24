@@ -1,0 +1,721 @@
+
+
+body{
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+*{
+font-family: "Montserrat";
+font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+  outline: 0px !important;
+  border-color: #000 !important;
+  box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.atm_form_mx_width{
+  max-width: 868px;
+  margin: 0 auto;
+}  
+.atm_main_wrapper{
+  width: 100%; 
+}
+.atm_signup_form_main{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.atm_signup_header{
+  width: 100%;
+  height: auto;
+  padding: 60px 50px 60px 91px;
+  background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+}
+.atm_signup_header h4{
+  font-family: "MontserratBold";
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  margin: 0;
+}
+.atm_signup_body{
+  background: #fff;
+  border-radius: 0px 0px 40px 40px;
+}
+.atm_project_modals .atm_theme_btn{
+  width: 100%;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+ 
+
+
+  font-size: 16px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+}
+.atm_project_modals .atm_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.atm_project_modals .atm_theme_btn:focus{
+  outline: none !important;
+  border: 1px solid #30679A;
+}
+.atm_project_modals .atm_theme_btn:hover{
+  background: #30679a !important;
+}
+
+.atm_project_modals .atm_modal_btn{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important;
+}
+.atm_project_modals .atm_modal_btn{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.atm_project_modals .atm_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.atm_project_modals{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #95989A;
+  padding: 6px 0px 0px;
+}
+.atm_project_modals ul{
+  padding: 0px 50px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+}
+.atm_project_modals ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.atm_modal_btn i{
+  background: #5a8bb9;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.atm_modal_btn:hover i{
+  background: #fff;
+  color: #5a8bb9;
+}
+.atm_theme_btn.atm_sub{
+  width: 100%;
+  padding: 0px 10px;
+}
+.atm_project_scroll{
+  width: 100%;
+  max-height: 308px;
+  overflow-y: scroll;
+  padding: 8px 75px;
+  border-bottom: 1px solid #95989A;
+}
+.atm_project_scroll::-webkit-scrollbar-track
+{
+background-color: #EAF5FE;
+}
+
+.atm_project_scroll::-webkit-scrollbar
+{
+width: 12px;
+background-color: #5A8BB9;
+}
+/* Buttons */
+.atm_project_scroll::-webkit-scrollbar-button:single-button {
+  background-color: #5A8BB9;
+  display: block;
+  border-style: solid;
+  height: 15px;
+  width: 16px;
+}
+/* Up */
+.atm_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.atm_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #fff transparent;
+}
+/* Down */
+.atm_project_scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 6px 6px 0 6px;
+  border-color: #fff transparent transparent transparent;
+}
+
+.atm_project_scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #000 transparent transparent transparent;
+}
+
+.atm_project_scroll::-webkit-scrollbar-thumb
+{
+  background-color: #5A8BB9;
+  border: 1px solid #30679A;
+}
+.atm_project{
+  text-align: left !important;
+  padding: 0 !important;
+  list-style: none;
+}
+.atm_project li{
+  width: 100%;
+  position: relative;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 5px 5px #D9D9D94D;
+  border-radius: 20px;
+  margin-bottom: 7px;
+}
+.atm_projects_list{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-left: 14px solid #8EE952;
+  border-radius: 20px;
+  padding: 30px 0px;
+  padding-left: 15px;
+}
+.atm_projects_list.atm_red{
+  border-left: 14px solid #E95252 !important; 
+}
+.atm_projects_list i{
+  background: #5A8BB9;
+  color: #fff;
+  padding: 5px 6px;
+  border-radius: 50px;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  cursor: pointer;
+}
+.atm_projects_list h4{
+  font-size: 14px;
+  font-family: "MontserratBold";
+  margin: 0;
+}
+.atm_projects_list p{
+  font-size: 12px;
+  margin: 0;
+}
+.atm_signup_form label,.atm_signup_form label u{
+  margin: 0px;
+  font-family: "MontserratBold";
+  color: #000;
+  font-size: 14px;
+}
+.atm_signup_form input{
+  font-size: 16px;
+  border: 0px;
+  border-bottom: 1px solid #95989A;
+  border-radius: 0px;
+  padding: 16px 0px;
+  color: #000;
+  height: 24px;
+}
+.atm_signup_form .atm_remember{
+  text-align: left;
+  font-family: "Montserrat" ;
+  font-size:  16px ;
+  letter-spacing: 0;
+  color: #cccccc;
+  padding:5px 0px;;
+}
+.atm_signup_form{
+  padding: 8px 75px;
+}
+/* custom select */
+.atm_select-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 0px;
+  padding: 5px 0px;
+  color: #000;
+  height: 24px;
+}
+.atm_select-box__current {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 1px solid #95989A;
+}
+.atm_select-box__current:focus{
+  border-bottom: 2px solid #30679A;
+}
+.atm_select-box__current:focus + .atm_select-box__list {
+  opacity: 1;
+  -webkit-animation-name: none;
+          animation-name: none;
+}
+.atm_select-box__current:focus + .atm_select-box__list .atm_select-box__option {
+  cursor: pointer;
+}
+.atm_select-box__current:focus .atm_select-box__icon {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+.atm_select-box__icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 14px;
+  transition: 0.2s ease;
+}
+.atm_select-box__value {
+  display: flex;
+}
+.atm_select-box__input {
+  display: none;
+}
+.atm_select-box__input:checked + .atm_select-box__input-text {
+  display: block;
+}
+.atm_select-box__input-text {
+  display: none;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+.atm_select-box__list {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  -webkit-animation-name: HideList;
+          animation-name: HideList;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: step-start;
+          animation-timing-function: step-start;
+          box-shadow: 0px 3px 6px #00000029;
+}
+.atm_select-box__list li label{
+  font-family: "Montserrat";
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+}
+.atm_select-box__option {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+}
+.atm_select-box__option:hover, .atm_select-box__option:focus {
+  color: #546c84;
+  background-color: #fbfbfb;
+}
+
+@-webkit-keyframes HideList {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+@keyframes HideList {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+/* modal css */
+.atm_modal .modal-content{
+border: 0px !important;
+background: none !important;
+}
+.atm_modal_closed{
+background: #5A8BB9;
+  color: #e4f1fb;
+  padding: 5px 8px 6px 7px;
+  border-radius: 50px;
+  position: absolute;
+  top: 15px;
+  right: 27px;
+  cursor: pointer;
+  z-index: 999;
+}
+.atm_modal .atm_signup_form{
+  padding: 60px 150px 60px;
+}
+/* bottom btn */
+.atm_theme_btn{
+width: 123px;
+height: 37px;
+background: #5A8BB9 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 5px #5A8BB94D !important;
+border-radius: 50px;
+color: #fff;
+font-family: "MontserratBold";
+
+font-size: 18px;
+border: 0px;
+transition: all .4s;
+cursor: pointer;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+.atm_theme_btn a{
+color: #fff;
+font-family: "MontserratBold";
+}
+.atm_google_btn:hover,.atm_fb_btn:hover,.atm_google_btn:focus,.atm_fb_btn:focus {
+box-shadow: 0px 7px 10px #929eaa;
+}
+.atm_theme_btn:focus{
+border: 1px solid #30679A;
+outline: none !important;
+}
+.atm_theme_btn:hover{
+background: #30679a !important;
+}
+.atm_back{
+float: left;
+border: 1px solid #30679A;
+background: #fff;    
+box-shadow: none !important;
+}
+.atm_back{
+color: #5A8BB9;
+font-family: "Montserrat";
+}
+.atm_back:hover{color: #fff;font-family: "MontserratBold";}
+.atm_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+.atm_paste_input{
+height: 80px !important;
+border: 1px solid #D9D9D9 !important;
+padding: 0px 13px 30px 11px !important;
+font-size: 14px !important;
+}
+.atm_paste_input:focus{
+border: 1px solid #D9D9D9 !important;
+}
+.atm_paste_btn .input-group-text{
+background: #F8F8F8 !important;
+height: 80px !important;
+width: 80px !important;
+text-align: center !important;
+justify-content: center !important;
+cursor: pointer;
+}
+.atm_paste_input::placeholder{
+padding: 0px;
+color: #D9D9D9;
+}
+
+
+
+/* add template modal start/ */
+
+.atm_save-btn-center{
+   text-align: center !important;
+} 
+/* add template modal end/ */
+ 
+.atm_select{position: relative;}
+
+.atm_custom_select{
+font-size: 16px;
+border-radius: 0;
+border: none;
+background: transparent;
+width: 100%;
+overflow: hidden;
+padding: 0;
+height: auto;
+color: #000;
+border-bottom: 1px solid #95989A;
+appearance: none;
+-webkit-appearance:none
+}
+.atm_custom_select:focus{
+outline: none;
+box-shadow: none;
+border-bottom: 2px solid #30679A;
+}
+
+.atm_custom_select optgroup {
+font-size: 16px;
+background: #fff;
+padding: 115px 0px;
+}
+
+.atm_custom_caret:after {
+position: absolute;
+bottom: 18px;
+right: 10px;
+width: 0;
+height: 0;
+padding: 0;
+content: '';
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-top: 6px solid #30679A;
+pointer-events: none;
+}
+.atm_custom_select:focus .atm_custom_caret:after{
+transform: rotate(180deg) !important;
+display: none !important;
+}
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .atm_form_mx_width {
+      max-width: 540px; 
+  }
+  .atm_theme_btn {margin: 15px 0 0px;} 
+  .atm_form_mx_width {
+    max-width: 540px;
+  }  
+  .atm_modal .atm_signup_form { padding: 37px 100px; }
+  .atm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .atm_signup_form label { font-size: 9px; }
+  .atm_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .atm_signup_form .remember {font-size: 12px; }
+  .atm_google_btn, .atm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .atm_theme_btn {
+      width: 90px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .atm_form_upload_message p {height: 60px !important;}
+  .atm_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+
+  .atm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .atm_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .atm_google_btn img, .atm_fb_btn img{
+      width: 20px !important;
+  }
+  .atm_hidden_pass{width: 15px;}
+  .atm_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .atm_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .atm_form_mx_width {
+      max-width: 540px; 
+  }
+  .atm_theme_btn {margin: 15px 0 0px;} 
+  .atm_form_mx_width {
+    max-width: 540px;
+  } 
+  .atm_modal .atm_signup_form { padding: 37px 100px; }
+  .atm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .atm_signup_form label { font-size: 9px; }
+  .atm_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .atm_signup_form .remember {font-size: 12px; }
+  .atm_google_btn, .atm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .atm_theme_btn {
+      width: 90px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .atm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .atm_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .atm_google_btn img, .atm_fb_btn img{
+      width: 18px !important;
+  }
+  .atm_hidden_pass{width: 15px;}
+  .atm_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .atm_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .atm_form_mx_width {
+      max-width: 540px; 
+  }
+  .atm_theme_btn {margin: 15px 0 0px;} 
+  .atm_form_mx_width {
+    max-width: 540px;
+  } 
+  .atm_modal .atm_signup_form { padding: 37px 100px; }
+  .atm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .atm_signup_form label { font-size: 9px; }
+  .atm_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .atm_signup_form .remember {font-size: 12px; }
+  .atm_google_btn, .atm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .atm_theme_btn {
+      width: 90px;
+    height: 24px;
+    font-size: 11px;
+  }  
+  .atm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .atm_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .atm_google_btn img, .atm_fb_btn img{
+      width: 18px !important;
+  }
+  .atm_hidden_pass{width: 15px;}
+  .atm_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .atm_form_mx_width {
+      max-width: 540px; 
+  }
+  .atm_modal .atm_signup_form { padding: 37px 50px !important; }
+  .atm_theme_btn {margin: 15px 0 0px;} 
+  .atm_form_mx_width {
+    max-width: 540px;
+  } 
+  .atm_modal .atm_signup_form { padding: 37px 100px; }
+  .atm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .atm_signup_form label { font-size: 9px; }
+  .atm_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .atm_signup_form .remember {font-size: 12px; }
+  .atm_google_btn, .atm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .atm_theme_btn {
+      width: 90px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .atm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .atm_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .atm_google_btn img, .atm_fb_btn img{
+      width: 18px !important;
+  }
+  .atm_hidden_pass{width: 15px;}
+  .atm_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .atm_order-xs-2{order: 2;} 
+  .atm_order-xs-2 h4{text-align: center;}
+ .atm_order-xs-1{order: 1;text-align: center;}
+ .atm_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .atm_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .atm_order-xs-2{order: 2;} 
+  .atm_order-xs-2 h4{text-align: center;}
+ .atm_order-xs-1{order: 1;text-align: center;}
+ .atm_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .atm_signup_header {padding: 32px 37px 32px 37px;}
+ .atm_signup_body { padding:0px !important;}
+.atm_modal .atm_signup_form { padding: 37px 30px !important; }
+}
+/* mobile screen end */

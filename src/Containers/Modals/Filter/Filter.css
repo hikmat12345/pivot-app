@@ -1,0 +1,983 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.filter_form_mx_width{
+  max-width: 868px;
+  margin: 0 auto;
+} 
+.filter_main_wrapper{
+  width: 100%; 
+}
+.filter_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.filter_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+.filter_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.filter_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+}
+.filter_project_modals .filter_theme_btn{
+    width: auto;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 16px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.filter_project_modals .filter_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.filter_project_modals .filter_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.filter_project_modals .filter_theme_btn:hover{
+    background: #30679a !important;
+}
+
+.filter_project_modals .filter_modal_btn{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.filter_project_modals .filter_modal_btn{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.filter_project_modals .filter_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.filter_project_modals{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #95989A;
+    padding: 6px 0px 0px;
+}
+.filter_project_modals ul{
+    padding: 0px 50px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.filter_project_modals ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.filter_modal_btn i{
+    background: #5a8bb9;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.filter_modal_btn:hover i{
+    background: #fff;
+    color: #5a8bb9;
+}
+.filter_theme_btn.filter_sub{
+    width: 100%;
+    padding: 0px 10px;
+}
+.filter_project_scroll{
+    width: 100%;
+    max-height: 308px;
+    overflow-y: scroll;
+    padding: 8px 75px;
+    border-bottom: 1px solid #95989A;
+}
+.filter_project_scroll::-webkit-scrollbar-track
+{
+	background-color: #EAF5FE;
+}
+
+.filter_project_scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #5A8BB9;
+}
+/* Buttons */
+.filter_project_scroll::-webkit-scrollbar-button:single-button {
+    background-color: #5A8BB9;
+    display: block;
+    border-style: solid;
+    height: 15px;
+    width: 16px;
+  }
+  /* Up */
+  .filter_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .filter_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-color: transparent transparent #fff transparent;
+  }
+  /* Down */
+  .filter_project_scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 6px 6px 0 6px;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .filter_project_scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-color: #000 transparent transparent transparent;
+  }
+
+.filter_project_scroll::-webkit-scrollbar-thumb
+{
+    background-color: #5A8BB9;
+    border: 1px solid #30679A;
+}
+.filter_project{
+    text-align: left !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.filter_project li{
+    width: 100%;
+    position: relative;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 5px 5px #D9D9D94D;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+.filter_projects_list{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-left: 14px solid #8EE952;
+    border-radius: 20px;
+    padding: 30px 0px;
+    padding-left: 15px;
+}
+.filter_projects_list.filter_red{
+    border-left: 14px solid #E95252 !important; 
+}
+.filter_projects_list i{
+    background: #5A8BB9;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+}
+.filter_projects_list h4{
+    font-size: 14px;
+    font-family: "MontserratBold";
+    margin: 0;
+}
+.filter_projects_list p{
+    font-size: 12px;
+    margin: 0;
+}
+.filter_signup_form label,.filter_signup_form label u{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.filter_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+
+.filter_signup_form{
+    padding: 8px 75px;
+}
+/* custom select */
+.filter_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .filter_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .filter_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .filter_select-box__current:focus + .filter_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .filter_select-box__current:focus + .filter_select-box__list .filter_select-box__option {
+    cursor: pointer;
+  }
+  .filter_select-box__current:focus .filter_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .filter_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .filter_select-box__value {
+    display: flex;
+  }
+  .filter_select-box__input {
+    display: none;
+  }
+  .filter_select-box__input:checked + .filter_select-box__input-text {
+    display: block;
+  }
+  .filter_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .filter_select-box__list {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .filter_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .filter_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .filter_select-box__option:hover, .filter_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+/* modal css */
+.filter_modal .modal-content{
+  border: 0px !important;
+  background: none !important;
+}
+.filter_modal_closed{
+  background: #5A8BB9;
+    color: #e4f1fb;
+    padding: 5px 8px 6px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    cursor: pointer;
+    z-index: 999;
+}
+.filter_modal .filter_signup_form{
+  padding: 60px 150px 60px;
+  width: 100%;
+  float: left;
+}
+/* bottom btn */
+.filter_theme_btn{
+  width: auto;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+  font-size: 18px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 0px 20px;
+  float: right;
+  margin: 40px 0px;
+}
+.filter_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.filter_google_btn:hover,.filter_fb_btn:hover,.filter_google_btn:focus,.filter_fb_btn:focus {
+  box-shadow: 0px 7px 10px #929eaa;
+}
+.filter_theme_btn:focus{
+  border: 1px solid #30679A;
+  outline: none !important;
+  box-shadow: 0 0 4px 4px #a6c8ff!important;
+}
+.filter_theme_btn:hover{
+  background: #30679a !important;
+}
+.filter_back{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important;
+}
+.filter_back{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.filter_back:hover{color: #fff;font-family: "Montserrat";}
+.filter_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+.filter_paste_input{
+  height: 80px !important;
+  border: 1px solid #D9D9D9 !important;
+  padding: 0px 13px 30px 11px !important;
+  font-size: 14px !important;
+}
+.filter_paste_input:focus{
+  border: 1px solid #D9D9D9 !important;
+}
+.filter_paste_btn .input-group-text{
+  background: #F8F8F8 !important;
+  height: 80px !important;
+  width: 80px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+.filter_paste_input::placeholder{
+  padding: 0px;
+  color: #D9D9D9;
+}
+.filter_signup_form .filter_remember{
+  text-align: left;
+  font-family: "Montserrat" ;
+  font-size:  16px ;
+  letter-spacing: 0;
+  color: #000;
+  padding-top: 3px;
+}
+.custom-radio .custom-control-label.filter_remember::before{
+  border: 1px solid #95989A;
+  background: #fff;
+}
+/* end */ 
+.filter_select{position: relative;}
+
+.filter_custom_select{
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  height: auto;
+  color: #000;
+  border-bottom: 1px solid #95989A;
+  appearance: none;
+	-webkit-appearance:none
+}
+.filter_custom_select:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #30679A;
+}
+
+.filter_custom_select optgroup {
+  font-size: 16px;
+  background: #fff;
+  padding: 115px 0px;
+}
+
+.filter_custom_caret:after {
+	position: absolute;
+	bottom: 18px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #30679A;
+	pointer-events: none;
+}
+.filter_custom_select:focus .filter_custom_caret:after{
+  transform: rotate(180deg) !important;
+  display: none !important;
+}
+/* custom radio/checkbox */
+/* Customize the label (the container) */
+.filter_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.filter_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.filter_checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50px;
+  border: 1px solid #95989A;
+  background: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.filter_container:hover input ~ .filter_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.filter_container input:checked ~ .filter_checkmark {
+  background-color: #346a9c;
+    border-radius: 50px;
+}
+
+/* Create the filter_checkmark/indicator (hidden when not checked) */
+.filter_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the filter_checkmark when checked */
+.filter_container input:checked ~ .filter_checkmark:after {
+  display: block;
+}
+
+/* Style the filter_checkmark/indicator */
+.filter_container .filter_checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .filter_form_mx_width {
+      max-width: 540px; 
+  }
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .filter_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .filter_custom_select,.filter_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .filter_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.filter_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .filter_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+    height: 24px !important;
+  }
+  .filter_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .filter_theme_btn {margin: 80px 0 0px;} 
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_custom_caret:after { 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #30679A; 
+  }
+  .filter_modal .filter_signup_form { padding: 37px 100px;}
+  .filter_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .filter_signup_form label,.filter_signup_form label, .filter_signup_form label u{ font-size: 9px; }
+  .filter_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .filter_signup_form .remember {font-size: 12px; }
+  .filter_google_btn, .filter_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .filter_theme_btn {
+      width: 70px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+
+  .filter_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .filter_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .filter_google_btn img, .filter_fb_btn img{
+      width: 20px !important;
+  }
+  .filter_hidden_pass{width: 15px;}
+  .filter_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .filter_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .filter_form_mx_width {
+      max-width: 540px; 
+  }
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .filter_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .filter_custom_select,.filter_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .filter_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.filter_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .filter_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+    height: 24px !important;
+  }
+  .filter_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .filter_theme_btn {margin: 80px 0 0px;}
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_custom_caret:after { 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #30679A; 
+  }
+  .filter_modal .filter_signup_form { padding: 37px 100px;}
+  
+  .filter_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .filter_signup_form label,.filter_signup_form label, .filter_signup_form label u{ font-size: 9px; }
+  .filter_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .filter_signup_form .remember {font-size: 12px; }
+  .filter_google_btn, .filter_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .filter_theme_btn {
+      width: 70px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .filter_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .filter_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .filter_google_btn img, .filter_fb_btn img{
+      width: 18px !important;
+  }
+  .filter_hidden_pass{width: 15px;}
+  .filter_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .filter_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .filter_form_mx_width {
+      max-width: 540px; 
+  }
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .filter_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .filter_custom_select,.filter_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .filter_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.filter_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .filter_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+    height: 24px !important;
+  }
+  .filter_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .filter_theme_btn {margin: 80px 0 0px;}
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_custom_caret:after { 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #30679A; 
+  }
+  .filter_modal .filter_signup_form { padding: 37px 100px;}
+  
+  .filter_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .filter_signup_form label,.filter_signup_form label, .filter_signup_form label u{ font-size: 9px; }
+  .filter_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .filter_signup_form .remember {font-size: 12px; }
+  .filter_google_btn, .filter_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .filter_theme_btn {
+      width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }  
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .filter_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .filter_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .filter_google_btn img, .filter_fb_btn img{
+      width: 18px !important;
+  }
+  .filter_hidden_pass{width: 15px;}
+  .filter_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .filter_form_mx_width {
+      max-width: 540px; 
+  }
+  .filter_modal .filter_signup_form { padding: 37px 50px !important; }
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .filter_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .filter_custom_select,.filter_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .filter_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.filter_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 3.5px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .filter_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+        height: 24px !important;
+  }
+  .filter_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .filter_theme_btn {margin: 80px 0 0px;}
+  .filter_custom_caret:after { 
+    bottom: 10px;
+  }
+  .filter_custom_caret:after { 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #30679A; 
+  }
+  .filter_modal .filter_signup_form { padding: 37px 100px;}
+  
+  .filter_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .filter_signup_form label,.filter_signup_form label, .filter_signup_form label u{ font-size: 9px; }
+  .filter_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .filter_signup_form .remember {font-size: 12px; }
+  .filter_google_btn, .filter_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .filter_theme_btn {
+      width: 70px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .filter_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .filter_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .filter_google_btn img, .filter_fb_btn img{
+      width: 18px !important;
+  }
+  .filter_hidden_pass{width: 15px;}
+  .filter_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .filter_order-xs-2{order: 2;} 
+  .filter_order-xs-2 h4{text-align: center;}
+ .filter_order-xs-1{order: 1;text-align: center;}
+ .filter_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .filter_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .filter_order-xs-2{order: 2;} 
+  .filter_order-xs-2 h4{text-align: center;}
+ .filter_order-xs-1{order: 1;text-align: center;}
+ .filter_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .filter_signup_header {padding: 32px 37px 32px 37px;}
+ .filter_signup_body { padding:0px !important;}
+.filter_modal .filter_signup_form { padding: 37px 30px !important; }
+}
+/* mobile screen end */

@@ -1,0 +1,7 @@
+
+{
+  "CLIENT_ID" : "F276F8B56C44491DAAF24101546BF6B0",
+  "CLIENT_SECRET": "NfXPHQ5uEp9hEmBuYiPnHxfDJiD6LWDsKFaSiERtXPojmt1b",
+  "SCOPES": "offline_access accounting.transactions openid profile email accounting.contacts accounting.settings",
+  "REDIRECT_URL": "https://d14j155jdismzg.cloudfront.net/dashboard"
+}

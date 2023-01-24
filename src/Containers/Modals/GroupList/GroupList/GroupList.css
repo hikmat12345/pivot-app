@@ -1,0 +1,1260 @@
+
+
+body{
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+*{
+font-family: "Montserrat";
+font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+  outline: 0px !important;
+  border-color: #000 !important;
+  box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.glm_form_mx_width{
+  max-width: 868px;
+  margin: 0 auto;
+} 
+.glm_main_wrapper{
+  width: 100%; 
+}
+.glm_signup_form_main{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.glm_signup_header{
+  width: 100%;
+  height: auto;
+  padding: 60px 50px 60px 91px;
+  background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+}
+.glm_signup_header h4{
+  font-family: "MontserratBold";
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  margin: 0;
+  margin: 0;
+}
+.glm_signup_header span{
+  color:#fff;
+  font-size: 12px;
+}
+.glm_signup_body{
+  background: #fff;
+  border-radius: 0px 0px 40px 40px;
+}
+.glm_project_modals .glm_theme_btn{
+  width:auto;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+  float: right;
+  font-size: 16px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+  margin: 0px !important;
+}
+.glm_project_modals .glm_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.glm_project_modals .glm_theme_btn:focus{
+  outline: none !important;
+  border: 1px solid #30679A;
+}
+.glm_project_modals .glm_theme_btn:hover{
+  background: #30679a !important;
+}
+
+.glm_project_modals .glm_modal_btn{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important;
+}
+.glm_project_modals .glm_modal_btn{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.glm_project_modals .glm_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.glm_project_modals{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #95989A;
+  padding: 6px 0px 0px;
+}
+.glm_project_modals ul{
+  position: relative;
+  padding: 0px 40px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: left;
+}
+.glm_project_modals ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.glm_project_modals ul li:last-child{
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+.glm_remember.glm_conflict{
+  padding-left: 35px;
+}
+.glm_modal_btn i{
+  background: #5a8bb9;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.glm_modal_btn:hover i{
+  background: #fff;
+  color: #5a8bb9;
+}
+.glm_theme_btn.glm_sub{
+  width: 100%;
+  padding: 0px 10px;
+}
+.glm_project_scroll{
+  width: 100%;
+  height: auto;
+}
+
+
+.glm_project{
+  text-align: left !important;
+  padding: 0 !important;
+  list-style: none;
+}
+.glm_project li{
+  width: 100%;
+  position: relative;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 5px 5px #D9D9D94D;
+  border-radius: 20px;
+  margin-bottom: 7px;
+}
+.glm_projects_list{
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #fff;
+  border-left: 14px solid #8EE952;
+  border-radius: 20px;
+  padding: 15px 0px;
+  padding-left: 15px;
+}
+.glm_projects_list.glm_red{
+  border-left: 14px solid #E95252 !important; 
+}
+.glm_projects_list.glm_green{
+border-left: 14px solid #8EE952 !important; 
+}
+.glm_projects_list.glm_orange{
+border-left: 14px solid #E9C152 !important; 
+}
+.glm_projects_list i{
+  background: #5A8BB9;
+  color: #fff;
+  padding: 5px 6px;
+  border-radius: 50px;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  cursor: pointer;
+}
+.glm_projects_list h4{
+  font-size: 14px;
+  font-family: "MontserratBold";
+  margin: 0;
+}
+.glm_projects_list p{
+  font-size: 12px;
+  margin: 0;
+}
+.glm_signup_form label,.glm_signup_form label u{
+  margin: 0px;
+  font-family: "MontserratBold";
+  color: #000;
+  font-size: 14px;
+}
+.glm_signup_form input{
+  font-size: 16px;
+  border: 0px;
+  border-bottom: 1px solid #95989A;
+  border-radius: 0px;
+  padding: 5px 0px;
+  color: #000;
+  height: 24px;
+}
+.glm_signup_form .glm_remember{
+  text-align: left;
+  font-family: "Montserrat" ;
+  font-size:  16px ;
+  letter-spacing: 0;
+  color: #cccccc;
+  padding:5px 0px;;
+}
+.glm_signup_form{
+  padding: 8px 75px;
+}
+/* custom select */
+.glm_select-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 0px;
+  padding: 5px 0px;
+  color: #000;
+  height: 24px;
+}
+.glm_select-box__current {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 1px solid #95989A;
+}
+.glm_select-box__current:focus{
+  border-bottom: 2px solid #30679A;
+}
+.glm_select-box__current:focus + .glm_select-box__list {
+  opacity: 1;
+  -webkit-animation-name: none;
+          animation-name: none;
+}
+.glm_select-box__current:focus + .glm_select-box__list .glm_select-box__option {
+  cursor: pointer;
+}
+.glm_select-box__current:focus .glm_select-box__icon {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+.glm_select-box__icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 14px;
+  transition: 0.2s ease;
+}
+.glm_select-box__value {
+  display: flex;
+}
+.glm_select-box__input {
+  display: none;
+}
+.glm_select-box__input:checked + .glm_select-box__input-text {
+  display: block;
+}
+.glm_select-box__input-text {
+  display: none;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+.glm_select-box__list {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  -webkit-animation-name: HideList;
+          animation-name: HideList;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: step-start;
+          animation-timing-function: step-start;
+          box-shadow: 0px 3px 6px #00000029;
+}
+.glm_select-box__list li label{
+  font-family: "Montserrat";
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+}
+.glm_select-box__option {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+}
+.glm_select-box__option:hover, .glm_select-box__option:focus {
+  color: #546c84;
+  background-color: #fbfbfb;
+}
+
+@-webkit-keyframes HideList {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+@keyframes HideList {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+/* modal css */
+.glm_modal .modal-content{
+border: 0px !important;
+background: none !important;
+}
+.glm_modal_closed{
+background: #5A8BB9;
+  color: #e4f1fb;
+  padding: 5px 8px 6px 7px;
+  border-radius: 50px;
+  position: absolute;
+  top: 15px;
+  right: 27px;
+  cursor: pointer;
+  z-index: 999;
+}
+.glm_modal .glm_signup_form{
+padding: 37px 75px;
+}
+/* bottom btn */
+.glm_theme_btn{
+width: 123px;
+height: 37px;
+background: #5A8BB9 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 5px #5A8BB94D !important;
+border-radius: 50px;
+color: #fff;
+font-family: "MontserratBold";
+font-size: 18px;
+border: 0px;
+transition: all .4s;
+cursor: pointer;
+margin: 20px;
+}
+.glm_theme_btn a{
+color: #fff;
+font-family: "MontserratBold";
+}
+.glm_google_btn:hover,.glm_fb_btn:hover,.glm_google_btn:focus,.glm_fb_btn:focus {
+box-shadow: 0px 7px 10px #929eaa;
+}
+.glm_theme_btn:focus{
+border: 1px solid #30679A;
+outline: none !important;
+}
+.glm_theme_btn:hover{
+background: #30679a !important;
+}
+.glm_back{
+float: left;
+border: 1px solid #30679A;
+background: #fff;    
+box-shadow: none !important;
+}
+.glm_back{
+color: #5A8BB9;
+font-family: "Montserrat";
+}
+.glm_back:hover{color: #fff;font-family: "MontserratBold";}
+.glm_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+.glm_paste_input{
+height: 80px !important;
+border: 1px solid #D9D9D9 !important;
+padding: 0px 13px 30px 11px !important;
+font-size: 14px !important;
+}
+.glm_paste_input:focus{
+border: 1px solid #D9D9D9 !important;
+}
+.glm_paste_btn .input-group-text{
+background: #F8F8F8 !important;
+height: 80px !important;
+width: 80px !important;
+text-align: center !important;
+justify-content: center !important;
+cursor: pointer;
+}
+.glm_paste_input::placeholder{
+padding: 0px;
+color: #D9D9D9;
+}
+.glm_user_status{
+width: 100%;
+text-align: right;
+padding-right: 5px;
+}
+.glm_user_status span{
+font-size: 12px;
+  padding: 0px 15px;
+}
+.glm_user_status span:first-child{
+border-right: 3px solid #30679A;
+}
+/* end */
+/* custom radio/checkbox */
+/* Customize the label (the container) */
+.glm_container {
+  position: relative;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 0px;
+    height: 16px;
+}
+
+/* Hide the browser's default checkbox */
+.glm_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.glm_checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50px;
+  border: 1px solid #95989A;
+  background: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.glm_container:hover input ~ .glm_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.glm_container input:checked ~ .glm_checkmark {
+  background-color: #346a9c;
+    border-radius: 50px;
+}
+
+/* Create the glm_checkmark/indicator (hidden when not checked) */
+.glm_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the glm_checkmark when checked */
+.glm_container input:checked ~ .glm_checkmark:after {
+  display: block;
+}
+
+/* Style the glm_checkmark/indicator */
+.glm_container .glm_checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* end */
+/* table css */
+.glm_fixed_headers {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.glm_fixed_headers th,
+.glm_fixed_headers td {
+  padding: 8px 5px;
+  text-align: left;
+  border: 0px;
+
+}
+/* .glm_fixed_headers tbody th,
+.glm_fixed_headers tbody td{
+  word-break: break-all;
+} */
+.glm_fixed_headers td:nth-child(1),
+.glm_fixed_headers th:nth-child(1) {
+  width: 12%;
+  border: 0px; 
+  padding-left: 4.5em;
+  padding-right: 2em;
+}
+.glm_fixed_headers td:nth-child(2),
+.glm_fixed_headers th:nth-child(2) {
+  width: 27em;
+  border: 0px; 
+}
+.glm_fixed_headers td:nth-child(3),
+.glm_fixed_headers th:nth-child(3) {
+  width: 12%;
+  border: 0px;
+  text-align: center;
+  line-height: 18px;
+}
+.glm_fixed_headers td:nth-child(4),
+.glm_fixed_headers th:nth-child(4) {
+  width: 10%;
+  border: 0px;
+  text-align: center;
+}
+.glm_fixed_headers td:nth-child(5),
+.glm_fixed_headers th:nth-child(5) {
+  width: 8%;
+    border: 0px;
+    text-align: center;
+    line-height: 18px;
+}
+.glm_fixed_headers td:nth-child(6),
+.glm_fixed_headers th:nth-child(6) {
+  width: 12%;
+  border: 0px;
+  text-align: right;
+padding-right: 0px !important;
+}
+.glm_fixed_headers td:nth-child(6){
+  padding-right: 13px !important;
+}
+.glm_fixed_headers thead {
+  background-color: #30679A;
+  color: #fff;
+}
+.glm_fixed_headers thead tr {
+  display: block;
+  position: relative;
+}
+.glm_fixed_headers tbody {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: 430px;
+  color: #000;
+}
+.glm_fixed_headers tbody::-webkit-scrollbar-track
+{
+background-color: #EAF5FE;
+}
+
+.glm_fixed_headers tbody::-webkit-scrollbar
+{
+width: 12px;
+background-color: #5A8BB9;
+}
+/* Buttons */
+.glm_fixed_headers tbody::-webkit-scrollbar-button:single-button {
+  background-color: #5A8BB9;
+  display: block;
+  border-style: solid;
+  height: 15px;
+  width: 16px;
+}
+/* Up */
+.glm_fixed_headers tbody::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.glm_fixed_headers tbody::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #fff transparent;
+}
+/* Down */
+.glm_fixed_headers tbody::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 6px 6px 0 6px;
+  border-color: #fff transparent transparent transparent;
+}
+
+.glm_fixed_headers tbody::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #000 transparent transparent transparent;
+}
+
+.glm_fixed_headers tbody::-webkit-scrollbar-thumb
+{
+  background-color: #5A8BB9;
+  border: 1px solid #30679A;
+}
+
+
+.glm_fixed_headers tbody tr:nth-child(even) {
+  background-color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #FCFCFC !important;
+}
+.old_ie_wrapper {
+  height: 300px;
+  width: 750px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.old_ie_wrapper tbody {
+  height: auto;
+}
+.glm_pencil{
+  background: #5A8BB9;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.glm_project_modals ul{
+  padding: 0px 70px;
+}
+/* end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .glm_form_mx_width {
+      max-width: 540px; 
+  } 
+  .glm_fixed_headers td:nth-child(1), .glm_fixed_headers th:nth-child(1) {
+    width: 11em;
+  }
+  .glm_fixed_headers th:nth-child(3){
+    padding-right: 0px;
+    padding-left: 13px;
+  }
+   .glm_fixed_headers th:nth-child(4){
+    padding-right: 0;
+    padding-left: 15px;
+  }
+   .glm_fixed_headers th:nth-child(5){
+    padding-right: 16px;
+    padding-left: 10px;
+   }
+   .glm_fixed_headers th:nth-child(6){
+    padding-left: 0;
+    padding-right: 0px;
+  }
+  .pxl-5{padding: 0px;}
+  .glm_container.glm_remember .glm_checkmark{
+        top: 0px !important;
+    height: 14px;
+    width: 14px;
+}
+.glm_container.glm_remember .glm_checkmark:after{
+  left: 4px;
+  top: 2px;
+  width: 3.5px;
+  height: 7px;
+  border-width: 0 2px 2px 0;
+}
+.glm_signup_form .glm_remember{margin-bottom:5px !important;}
+  .glm_signup_header span{font-size: 12px;}
+  .glm_fixed_headers tbody {height: 253px; }
+  .glm_fixed_headers thead th,.glm_fixed_headers tbody tr td,.glm_fixed_headers tbody tr th
+   {padding: 6px 12px;} 
+  
+  .glm_fixed_headers{font-size: 10px;} 
+  .glm_pencil{font-size: 8px;}
+  .glm_remember.glm_conflict {
+    padding-left: 25px;
+    font-size: 10px;
+}
+  .glm_theme_btn {
+    margin: 10px 0px 20px;
+    width: 80px;
+    height: 26px;
+    font-size: 9px;
+    padding: 3px 5px;
+}
+  .glm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .glm_signup_form label { font-size: 9px; }
+  .glm_signup_form input { font-size: 9px;}
+  .glm_signup_form .remember {font-size: 12px; }
+  .glm_google_btn, .glm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .glm_project_modals .glm_theme_btn {
+    width: 100%;
+    height: 23px;
+    font-size: 9px;
+  }
+  .glm_modal_btn i {
+    background: #5a8bb9;
+    color: #fff;
+    padding: 4px 5px;
+    border-radius: 50px;
+    font-size: 7px;
+    margin-right: 5px;
+}
+  .glm_theme_btn.glm_sub {
+    width: 100%;
+  }
+  .glm_project_modals ul{
+    padding: 0px 45px;
+  }
+  .glm_project_modals ul li { 
+    margin-right: 10px;
+  } 
+  .glm_project_modals ul li:last-child {top: 0px;}
+  .glm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .glm_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 0px;
+      margin-top: 0px;
+  }
+  .glm_signup_form {
+    padding: 8px 70px;
+}
+.glm_signup_form .glm_remember{font-size: 14px;padding-top: 10px;}
+.glm_width-selector-inner__control,
+.glm_width-selector-inner__menu-list .glm_width-selector-inner__option{font-size: 14px;}
+  .glm_project_scroll { 
+    max-height: 300px; 
+    
+}
+.glm_projects_list h4,.glm_projects_list i {font-size: 12px;}
+.glm_projects_list p {font-size: 10px;}
+.glm_project li{border-radius: 10px;}
+.glm_projects_list.glm_red {
+  border-left: 10px solid #E95252 !important;
+}
+.glm_projects_list.glm_orange {
+  border-left: 10px solid #E9C152 !important;
+}
+.glm_projects_list { 
+  border-left: 10px solid #8EE952;
+  border-radius: 10px;
+  padding: 10px 0px;
+  padding-left: 5px; 
+}
+.glm_user_label{
+  font-size: 10px !important;
+    left: -9px !important;
+    top: 42% !important;
+}
+.glm_user_status span {font-size: 8px;}
+.glm_user_status { line-height: 0px;}
+  .glm_google_btn img, .glm_fb_btn img{
+      width: 20px !important;
+  }
+  .glm_hidden_pass{width: 15px;}
+  .glm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .glm_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .glm_form_mx_width {
+      max-width: 540px; 
+  }
+  .glm_fixed_headers td:nth-child(1), .glm_fixed_headers th:nth-child(1) {width:11em;}
+  .glm_fixed_headers th:nth-child(3){
+    padding-right: 0px;
+    padding-left: 13px;
+  }
+   .glm_fixed_headers th:nth-child(4){
+    padding-right: 0;
+    padding-left: 15px;
+  }
+   .glm_fixed_headers th:nth-child(5){
+    padding-right: 16px;
+    padding-left: 10px;
+   }
+   .glm_fixed_headers th:nth-child(6){
+    padding-left: 0;
+    padding-right: 0px;
+  }
+  .pxl-5{padding: 0px;}
+  .glm_container.glm_remember .glm_checkmark{
+        top: 0px !important;
+    height: 14px;
+    width: 14px;
+}
+.glm_container.glm_remember .glm_checkmark:after{
+  left: 4px;
+  top: 2px;
+  width: 3.5px;
+  height: 7px;
+  border-width: 0 2px 2px 0;
+}
+  .glm_signup_header span{font-size: 12px;} 
+  .glm_fixed_headers tbody {height: 253px; }
+  .glm_fixed_headers thead th,.glm_fixed_headers tbody tr td,.glm_fixed_headers tbody tr th
+   {padding: 6px 12px;}
+  .glm_fixed_headers{font-size: 10px;}
+  .glm_remember.glm_conflict {
+    padding-left: 25px;
+    font-size: 10px;
+}
+  .glm_theme_btn {
+    margin: 10px 0px 20px;
+    width: 80px;
+    height: 26px;
+    font-size: 9px;
+    padding: 3px 5px;
+}
+  .glm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .glm_signup_form label { font-size: 9px; }
+  .glm_signup_form input { font-size: 9px;}
+  .glm_signup_form .remember {font-size: 12px; }
+  .glm_google_btn, .glm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .glm_project_modals .glm_theme_btn {
+    width: 100%;
+    height: 23px;
+    font-size: 9px;
+  }
+  .glm_modal_btn i {
+    background: #5a8bb9;
+    color: #fff;
+    padding: 4px 5px;
+    border-radius: 50px;
+    font-size: 7px;
+    margin-right: 5px;
+}
+.glm_theme_btn.glm_sub {
+  width: 100%;
+}
+.glm_project_modals ul{
+  padding: 0px 45px;
+}
+.glm_project_modals ul li { 
+  margin-right: 10px;
+} 
+.glm_project_modals ul li:last-child {top: 0px;}
+  .glm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .glm_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 0px;
+      margin-top: 0px;
+  }
+  .glm_signup_form {
+    padding: 8px 70px;
+}
+.glm_signup_form .glm_remember{font-size: 14px;padding-top: 10px;}
+.glm_width-selector-inner__control,
+.glm_width-selector-inner__menu-list .glm_width-selector-inner__option{font-size: 14px;}
+  .glm_project_scroll { 
+    max-height: 300px; 
+    
+}
+.glm_projects_list h4,.glm_projects_list i {font-size: 12px;}
+.glm_projects_list p {font-size: 10px;}
+.glm_project li{border-radius: 10px;}
+.glm_projects_list.glm_red {
+  border-left: 10px solid #E95252 !important;
+}
+.glm_projects_list.glm_orange {
+  border-left: 10px solid #E9C152 !important;
+}
+.glm_projects_list { 
+  border-left: 10px solid #8EE952;
+  border-radius: 10px;
+  padding: 10px 0px;
+  padding-left: 5px;
+}
+.glm_user_label{
+  font-size: 10px !important;
+    left: -9px !important;
+    top: 42% !important;
+}
+.glm_user_status { line-height: 0px;}
+.glm_user_status span {font-size: 8px;}
+  .glm_google_btn img, .glm_fb_btn img{
+      width: 18px !important;
+  }
+  .glm_hidden_pass{width: 15px;}
+  .glm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .glm_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .glm_form_mx_width {
+      max-width: 540px; 
+  }
+  .glm_fixed_headers td:nth-child(1), .glm_fixed_headers th:nth-child(1) {
+    width: 11em;
+  }
+  .glm_fixed_headers th:nth-child(3){
+    padding-right: 0px;
+    padding-left: 13px;
+  }
+   .glm_fixed_headers th:nth-child(4){
+    padding-right: 0;
+    padding-left: 15px;
+  }
+   .glm_fixed_headers th:nth-child(5){
+    padding-right: 16px;
+    padding-left: 10px;
+   }
+   .glm_fixed_headers th:nth-child(6){
+    padding-left: 0;
+    padding-right: 21px;
+  }
+  .pxl-5{padding: 0px;}
+  .glm_container.glm_remember .glm_checkmark{
+        top: 0px !important;
+    height: 14px;
+    width: 14px;
+}
+.glm_container.glm_remember .glm_checkmark:after{
+  left: 4px;
+  top: 2px;
+  width: 3.5px;
+  height: 7px;
+  border-width: 0 2px 2px 0;
+}
+  .glm_signup_header span{font-size: 12px;}
+  .glm_fixed_headers tbody {height: 253px; }
+  .glm_fixed_headers thead th,.glm_fixed_headers tbody tr td,.glm_fixed_headers tbody tr th
+   {padding: 6px 12px;}
+  .glm_fixed_headers{font-size: 10px;}
+  .glm_remember.glm_conflict {
+    padding-left: 25px;
+    font-size: 10px;
+}
+  .glm_theme_btn {
+    margin: 10px 0px 20px;
+    width: 80px;
+    height: 26px;
+    font-size: 9px;
+    padding: 3px 5px;
+}
+  .glm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .glm_signup_form label { font-size: 9px; }
+  .glm_signup_form input { font-size: 9px;}
+  .glm_signup_form .remember {font-size: 12px; }
+  .glm_google_btn, .glm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .glm_project_modals .glm_theme_btn {
+    width: 100%;
+    height: 23px;
+    font-size: 9px;
+  }
+  .glm_modal_btn i {
+    background: #5a8bb9;
+    color: #fff;
+    padding: 4px 5px;
+    border-radius: 50px;
+    font-size: 7px;
+    margin-right: 5px;
+}
+.glm_theme_btn.glm_sub {
+  width: 100%;
+}
+.glm_project_modals ul{
+  padding: 0px 45px;
+}
+.glm_project_modals ul li { 
+  margin-right: 10px;
+} 
+.glm_project_modals ul li:last-child {top: 0px;}
+  .glm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .glm_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 0px;
+      margin-top: 0px;
+  }
+  .glm_signup_form {
+    padding: 8px 70px;
+}
+.glm_signup_form .glm_remember{font-size: 14px;padding-top: 10px;}
+.glm_width-selector-inner__control,
+.glm_width-selector-inner__menu-list .glm_width-selector-inner__option{font-size: 14px;}
+  .glm_project_scroll { 
+    max-height: 300px; 
+    
+}
+.glm_projects_list h4,.glm_projects_list i {font-size: 12px;}
+.glm_projects_list p {font-size: 10px;}
+.glm_project li{border-radius: 10px;}
+.glm_projects_list.glm_red {
+  border-left: 10px solid #E95252 !important;
+}
+.glm_projects_list.glm_orange {
+  border-left: 10px solid #E9C152 !important;
+}
+.glm_projects_list { 
+  border-left: 10px solid #8EE952;
+  border-radius: 10px;
+  padding: 10px 0px;
+  padding-left: 5px;
+}
+.glm_user_label{
+  font-size: 10px !important;
+    left: -9px !important;
+    top: 42% !important;
+}
+.glm_user_status { line-height: 0px;}
+.glm_user_status span {font-size: 8px;}
+  .glm_google_btn img, .glm_fb_btn img{
+      width: 18px !important;
+  }
+  .glm_hidden_pass{width: 15px;}
+  .glm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .glm_form_mx_width {
+      max-width: 540px; 
+  }
+  .glm_fixed_headers td:nth-child(1), .glm_fixed_headers th:nth-child(1) {
+    
+    width: 7rem !important;
+    padding-left: 12px;
+  }
+  .glm_fixed_headers td:nth-child(2), .glm_fixed_headers th:nth-child(2){
+    width: 18rem;
+  }
+  .glm_fixed_headers td:nth-child(3), .glm_fixed_headers th:nth-child(3){
+    padding-right: 0px;
+    padding-left: 13px;
+    width: 12rem;
+  }
+  .glm_fixed_headers td:nth-child(4), .glm_fixed_headers th:nth-child(4){
+    padding-right: 0;
+    padding-left: 15px;
+    width: 10rem;
+  }
+  .glm_fixed_headers td:nth-child(5), .glm_fixed_headers th:nth-child(5){
+    padding-right: 16px;
+    padding-left: 10px;
+    width: 8rem;
+   }
+   .glm_fixed_headers td:nth-child(6), .glm_fixed_headers th:nth-child(6){
+    padding-left: 0;
+    padding-right: 0px;
+    width: 8rem;
+  }
+  .pxl-5{padding: 0px;}
+  .glm_container.glm_remember .glm_checkmark{
+        top: 0px !important;
+    height: 14px;
+    width: 14px;
+}
+.glm_container.glm_remember .glm_checkmark:after{
+  left: 4px;
+  top: 2px;
+  width: 3.5px;
+  height: 7px;
+  border-width: 0 2px 2px 0;
+}
+  .glm_signup_header span{font-size: 12px;}
+  .glm_fixed_headers tbody {height: 253px; }
+  .glm_fixed_headers thead th,.glm_fixed_headers tbody tr td,.glm_fixed_headers tbody tr th
+   {padding: 6px 12px;}
+  .glm_fixed_headers{font-size: 10px;}
+  .glm_remember.glm_conflict {
+    padding-left: 25px;
+    font-size: 10px;
+}
+  .glm_theme_btn {
+    margin: 10px 0px 20px;
+    width: 80px;
+    height: 26px;
+    font-size: 9px;
+    padding: 3px 5px;
+}
+  .glm_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .glm_signup_form label { font-size: 9px; }
+  .glm_signup_form input { font-size: 9px;}
+  .glm_signup_form .remember {font-size: 12px; }
+  .glm_google_btn, .glm_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .glm_project_modals .glm_theme_btn {
+    width: 100%;
+    height: 23px;
+    font-size: 9px;
+  }
+  .glm_modal_btn i {
+    background: #5a8bb9;
+    color: #fff;
+    padding: 4px 5px;
+    border-radius: 50px;
+    font-size: 7px;
+    margin-right: 5px;
+}
+.glm_theme_btn.glm_sub {
+  width: 100%;
+}
+.glm_project_modals ul{
+  padding: 0px 10px;
+}
+.glm_project_modals ul li { 
+  margin-right: 10px;
+} 
+.glm_project_modals ul li:last-child {top: 0px;float: right; } 
+.glm_project_modals ul li:last-child label {font-size: 12px;}  
+.glm_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .glm_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 0px;
+      margin-top: 0px;
+  }
+  .glm_signup_form {
+    padding: 8px 40px;
+}
+.glm_signup_form .glm_remember{font-size: 14px;padding-top: 10px;}
+.glm_width-selector-inner__control,
+.glm_width-selector-inner__menu-list .glm_width-selector-inner__option{font-size: 14px;}
+  .glm_project_scroll { 
+    max-height: 300px; 
+    overflow: hidden; 
+}
+.glm_projects_list h4,.glm_projects_list i {font-size: 12px;}
+.glm_projects_list p {font-size: 10px;}
+.glm_project li{border-radius: 10px;}
+.glm_projects_list.glm_red {
+  border-left: 10px solid #E95252 !important;
+}
+.glm_projects_list.glm_orange {
+  border-left: 10px solid #E9C152 !important;
+}
+.glm_projects_list { 
+  border-left: 10px solid #8EE952;
+  border-radius: 10px;
+  padding: 10px 0px;
+  padding-left: 5px; 
+}
+.glm_user_label{
+  font-size: 10px !important;
+    left: -9px !important;
+    top: 42% !important;
+}
+.glm_user_status { line-height: 0px;}
+.glm_user_status span {font-size: 8px;}
+  .glm_google_btn img, .glm_fb_btn img{
+      width: 18px !important;
+  }
+  .glm_hidden_pass{width: 15px;}
+  .glm_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .glm_order-xs-2{
+    order: 2;
+    text-align: center;
+    font-size: 12px;
+  } 
+  .glm_order-xs-2 h4{text-align: center;}
+ .glm_order-xs-1{order: 1;text-align: center;}
+ .glm_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .glm_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .glm_fixed_headers td:nth-child(1), .glm_fixed_headers th:nth-child(1) {width: 11em;}
+  .pxl-5{padding: 0px;}
+  .glm_signup_header span{font-size: 12px;}
+  .glm_order-xs-2{
+    order: 2;
+    text-align: center;
+    font-size: 12px;
+  } 
+  .glm_order-xs-2 h4{text-align: center;}
+ .glm_order-xs-1{order: 1;text-align: center;}
+ .glm_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .glm_signup_header {padding: 32px 37px 32px 37px;}
+ .glm_signup_body {padding: 0px;}
+}
+/* mobile screen end */

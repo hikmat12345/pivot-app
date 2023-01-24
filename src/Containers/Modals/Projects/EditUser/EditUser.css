@@ -1,0 +1,1150 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.eum_form_mx_width{
+  max-width: 868px;
+  margin: 0 auto;
+} 
+.eum_main_wrapper{
+  width: 100%; 
+}
+.eum_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.eum_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+.eum_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.eum_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+}
+.eum_project_modals .eum_theme_btn{
+    width: auto;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 16px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.eum_project_modals .eum_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.eum_project_modals .eum_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.eum_project_modals .eum_theme_btn:hover{
+    background: #30679a !important;
+}
+
+.eum_project_modals .eum_modal_btn{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.eum_project_modals .eum_modal_btn{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.eum_project_modals .eum_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.eum_project_modals{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #95989A;
+    padding: 6px 0px 0px;
+}
+.eum_project_modals ul{
+    padding: 0px 50px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.eum_project_modals ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.eum_modal_btn i{
+    background: #5a8bb9;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.eum_modal_btn:hover i{
+    background: #fff;
+    color: #5a8bb9;
+}
+.eum_theme_btn.eum_sub{
+    width: 100%;
+    padding: 0px 10px;
+}
+.eum_theme_btn.eum_save_btn{
+  width: 110px;
+}
+.eum_project_scroll{
+    width: 100%;
+    max-height: 308px;
+    overflow-y: scroll;
+    padding: 8px 75px;
+    border-bottom: 1px solid #95989A;
+}
+.eum_project_scroll::-webkit-scrollbar-track
+{
+	background-color: #EAF5FE;
+}
+
+.eum_project_scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #5A8BB9;
+}
+/* Buttons */
+.eum_project_scroll::-webkit-scrollbar-button:single-button {
+    background-color: #5A8BB9;
+    display: block;
+    border-style: solid;
+    height: 15px;
+    width: 16px;
+  }
+  /* Up */
+  .eum_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .eum_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-color: transparent transparent #fff transparent;
+  }
+  /* Down */
+  .eum_project_scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 6px 6px 0 6px;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .eum_project_scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-color: #000 transparent transparent transparent;
+  }
+
+.eum_project_scroll::-webkit-scrollbar-thumb
+{
+    background-color: #5A8BB9;
+    border: 1px solid #30679A;
+}
+.eum_project{
+    text-align: left !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.eum_project li{
+    width: 100%;
+    position: relative;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 5px 5px #D9D9D94D;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+.eum_projects_list{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-left: 14px solid #8EE952;
+    border-radius: 20px;
+    padding: 30px 0px;
+    padding-left: 15px;
+}
+.eum_projects_list.eum_red{
+    border-left: 14px solid #E95252 !important; 
+}
+.eum_projects_list i{
+    background: #5A8BB9;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+}
+.eum_projects_list h4{
+    font-size: 14px;
+    font-family: "MontserratBold";
+    margin: 0;
+}
+.eum_projects_list p{
+    font-size: 12px;
+    margin: 0;
+}
+.eum_signup_form label,.eum_signup_form label u{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.eum_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+
+.eum_signup_form{
+    padding: 8px 75px;
+}
+/* custom select */
+.eum_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .eum_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .eum_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .eum_select-box__current:focus + .eum_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .eum_select-box__current:focus + .eum_select-box__list .eum_select-box__option {
+    cursor: pointer;
+  }
+  .eum_select-box__current:focus .eum_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .eum_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .eum_select-box__value {
+    display: flex;
+  }
+  .eum_select-box__input {
+    display: none;
+  }
+  .eum_select-box__input:checked + .eum_select-box__input-text {
+    display: block;
+  }
+  .eum_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .eum_select-box__list {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .eum_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .eum_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .eum_select-box__option:hover, .eum_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+/* modal css */
+.eum_modal .modal-content{
+  border: 0px !important;
+  background: none !important;
+}
+.eum_modal_closed{
+  background: #5A8BB9;
+    color: #e4f1fb;
+    padding: 5px 8px 6px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    cursor: pointer;
+    z-index: 999;
+}
+.eum_modal .eum_signup_form{
+  padding: 60px 150px 60px;
+}
+/* bottom btn */
+.eum_theme_btn{
+  width: auto;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+  font-size: 18px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+.eum_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.eum_google_btn:hover,.eum_fb_btn:hover,.eum_google_btn:focus,.eum_fb_btn:focus {
+  box-shadow: 0px 7px 10px #929eaa;
+}
+.eum_theme_btn:focus{
+  border: 1px solid #30679A;
+  outline: none !important;
+}
+.eum_theme_btn:hover{
+  background: #30679a !important;
+}
+.eum_back{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important;
+}
+.eum_back{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.eum_back:hover{color: #fff;font-family: "Montserrat";}
+.eum_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+.eum_paste_input{
+  height: 80px !important;
+  border: 1px solid #D9D9D9 !important;
+  padding: 0px 13px 30px 11px !important;
+  font-size: 14px !important;
+}
+.eum_paste_input:focus{
+  border: 1px solid #D9D9D9 !important;
+}
+.eum_paste_btn .input-group-text{
+  background: #F8F8F8 !important;
+  height: 80px !important;
+  width: 80px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+.eum_paste_input::placeholder{
+  padding: 0px;
+  color: #D9D9D9;
+}
+.eum_signup_form .eum_remember{
+  text-align: left;
+  font-family: "Montserrat" ;
+  font-size:  16px ;
+  letter-spacing: 0;
+  color: #000;
+  padding-top: 3px;
+}
+.custom-radio .custom-control-label.eum_remember::before{
+  border: 1px solid #95989A;
+  background: #fff;
+}
+/* custon css of multi selector */
+.eum_select .dropdown-heading{
+  padding: 5px 0px 5px 10px;
+  border: 0px !important;
+  border-bottom: 1px solid #95989A!important;
+  border-radius: 0px !important;
+}
+.eum_select .select-panel div input{
+display: none !important;
+}
+.eum_select .dropdown-content{
+  height: auto;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  border-top: 3px solid #30679A !important;
+  border: 0px;
+}
+.eum_select .item-renderer input {
+  position: absolute;
+  opacity: 0;
+}
+.eum_select .item-renderer span{
+  padding-left: 30px !important;
+}
+.eum_select .item-renderer input + span {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  color: #000;
+  font-size: 16px;
+}     
+.eum_select .item-renderer input + span:before {
+  content: '';
+  position: absolute;
+  top: 3;
+  left: 0;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50px;
+  border: 1px solid #95989A;
+  background: #fff;
+}
+/* .item-renderer input:hover + span:before {
+  background: #f35429;
+} */
+.eum_select .item-renderer input:focus + span:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.eum_select .item-renderer input:checked + span:before {
+  background-color: #346a9c;
+  border-radius: 50px;
+}
+.eum_select .item-renderer input:disabled + span {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.eum_select .item-renderer input:disabled + span:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.eum_select .item-renderer input:checked + span:after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.eum_select .dropdown-content{
+  max-height: 200px !important;
+}
+.eum_select .dropdown-content::-webkit-scrollbar-track
+{
+background-color: #EAF5FE;
+}
+
+.eum_select .dropdown-content::-webkit-scrollbar
+{
+width: 12px;
+background-color: #5A8BB9;
+}
+/* Buttons */
+.eum_select .dropdown-content::-webkit-scrollbar-button:single-button {
+  background-color: #5A8BB9;
+  display: block;
+  border-style: solid;
+  height: 15px;
+  width: 16px;
+}
+/* Up */
+.eum_select .dropdown-content::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.eum_select .dropdown-content::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #fff transparent;
+}
+/* Down */
+.eum_select .dropdown-content::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 6px 6px 0 6px;
+  border-color: #fff transparent transparent transparent;
+}
+
+.eum_select .dropdown-content::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #000 transparent transparent transparent;
+}
+
+.eum_select .dropdown-content::-webkit-scrollbar-thumb
+{
+  background-color: #5A8BB9;
+  border: 1px solid #30679A;
+}
+.eum_select .multi-select .dropdown[aria-expanded="false"] .dropdown-heading-dropdown-arrow span{
+  transform: rotate(180deg) !important;
+}
+.eum_select .dropdown-heading-dropdown-arrow span{
+  border-color: transparent transparent rgb(48, 103, 154) !important;
+  border-width: 0px 6px 6px !important;
+}
+.eum_select .select-panel .select-item:hover{
+  background-color: rgb(241, 241, 241) !important;
+}
+.eum_select .dropdown-heading-value,.dropdown-heading{
+  padding-left: 0px !important;
+}
+/* custon css of multi selector end */
+/* end */
+.eum_select{position: relative;}
+
+.eum_custom_select{
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  height: auto;
+  color: #000;
+  border-bottom: 1px solid #95989A;
+  appearance: none;
+	-webkit-appearance:none
+}
+.eum_custom_select:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #30679A;
+}
+
+.eum_custom_select optgroup {
+  font-size: 16px;
+  background: #fff;
+  padding: 115px 0px;
+}
+
+.eum_custom_caret:after {
+	position: absolute;
+	bottom: 18px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #30679A;
+	pointer-events: none;
+}
+.eum_custom_select:focus .eum_custom_caret:after{
+  transform: rotate(180deg) !important;
+  display: none !important;
+}
+/* custom radio/checkbox */
+/* Customize the label (the container) */
+.eum_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.eum_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.eum_checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50px;
+  border: 1px solid #95989A;
+  background: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.eum_container:hover input ~ .eum_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.eum_container input:checked ~ .eum_checkmark {
+  background-color: #346a9c;
+    border-radius: 50px;
+}
+
+/* Create the eum_checkmark/indicator (hidden when not checked) */
+.eum_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the eum_checkmark when checked */
+.eum_container input:checked ~ .eum_checkmark:after {
+  display: block;
+}
+
+/* Style the eum_checkmark/indicator */
+.eum_container .eum_checkmark:after {
+  left: 6px !important;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .eum_form_mx_width {
+      max-width: 540px; 
+  }
+  .eum_modal .eum_signup_form{
+    padding: 37px 90px;
+  }
+  .eum_signup_form .eum_remember{margin-bottom:5px !important;}
+  .eum_container { padding-left: 25px; }
+  .eum_select .dropdown-heading-dropdown-arrow span {border-width: 0px 5px 5px !important;}
+  .eum_container.eum_remember .eum_checkmark{
+    top: 2px !important; 
+  height: 16px;
+  width: 16px;
+}
+.eum_container.eum_remember .eum_checkmark:after{
+    left: 5px !important;
+  top: 3px;
+  width: 4px;
+  height: 7px; 
+  border-width: 0 2px 2px 0; 
+}
+  .eum_custom_caret:after { 
+    bottom: 10px;
+  }
+  .eum_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .eum_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .eum_custom_select,.eum_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .eum_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.eum_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 4px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .eum_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+    height: 24px !important;
+  }
+  .eum_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .eum_theme_btn {margin: 30px 0 0px;}
+  
+  .eum_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .eum_signup_form label,.eum_signup_form label, .eum_signup_form label u{ font-size: 9px !important; }
+  .eum_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .eum_signup_form .remember {font-size: 12px; }
+  .eum_google_btn, .eum_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .eum_theme_btn {
+      width: 75px !important;
+    height: 24px;
+    font-size: 9px;
+  } 
+  .eum_theme_btn.eum_back.eum_invite{width: auto !important;}
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+
+  .eum_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .eum_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .eum_google_btn img, .eum_fb_btn img{
+      width: 20px !important;
+  }
+  .eum_hidden_pass{width: 15px;}
+  .eum_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .eum_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+  .eum_modal .eum_signup_form{
+    padding: 37px 60px;
+  }
+  .eum_form_mx_width {
+      max-width: 540px; 
+  }
+  .order-1{order: -1 !important;}
+  .xs-100{order: 2 !important;}
+  .eum_signup_form .eum_remember{margin-bottom:5px !important;}
+  .eum_container { padding-left: 25px; }
+  .eum_select .dropdown-heading-dropdown-arrow span {border-width: 0px 5px 5px !important;}
+  .eum_container.eum_remember .eum_checkmark{
+    top: 2px !important; 
+  height: 16px;
+  width: 16px;
+}
+.eum_container.eum_remember .eum_checkmark:after{
+    left: 5px !important;
+  top: 3px;
+  width: 4px;
+  height: 7px; 
+  border-width: 0 2px 2px 0; 
+}
+  .eum_custom_caret:after { 
+    bottom: 10px;
+  }
+  .eum_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .eum_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .eum_custom_select,.eum_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .eum_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.eum_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 4px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .eum_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+    height: 24px !important;
+  }
+  .eum_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .eum_theme_btn {margin: 30px 0 0px;}
+  
+  .eum_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .eum_signup_form label,.eum_signup_form label, .eum_signup_form label u{ font-size: 9px !important; }
+  .eum_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .eum_signup_form .remember {font-size: 12px; }
+  .eum_google_btn, .eum_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .eum_theme_btn {
+      width: 75px !important;
+    height: 24px;
+    font-size: 9px;
+  } 
+  .eum_theme_btn.eum_back.eum_invite{width: auto !important;}
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .eum_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .eum_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .eum_google_btn img, .eum_fb_btn img{
+      width: 18px !important;
+  }
+  .eum_hidden_pass{width: 15px;}
+  .eum_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .eum_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .eum_form_mx_width {
+      max-width: 540px; 
+  }
+  .eum_modal .eum_signup_form { padding: 37px 90px !important; }
+  .order-1{order: -1 !important;}
+  .xs-100{order: 2 !important;}
+  .eum_signup_form .eum_remember{margin-bottom:5px !important;}
+  .eum_container { padding-left: 25px; }
+  .eum_select .dropdown-heading-dropdown-arrow span {border-width: 0px 5px 5px !important;}
+  .eum_container.eum_remember .eum_checkmark{
+    top: 2px !important; 
+  height: 16px;
+  width: 16px;
+}
+.eum_container.eum_remember .eum_checkmark:after{
+    left: 5px !important;
+  top: 3px;
+  width: 4px;
+  height: 7px; 
+  border-width: 0 2px 2px 0; 
+}
+  .eum_custom_caret:after { 
+    bottom: 10px;
+  }
+  .eum_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .eum_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .eum_custom_select,.eum_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .eum_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.eum_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 4px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .eum_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+    height: 24px !important;
+  }
+  .eum_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .eum_theme_btn {margin: 30px 0 0px;}
+  
+  .eum_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .eum_signup_form label,.eum_signup_form label, .eum_signup_form label u{ font-size: 9px !important; }
+  .eum_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .eum_signup_form .remember {font-size: 12px; }
+  .eum_google_btn, .eum_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .eum_theme_btn {
+      width: 75px !important;
+    height: 24px;
+    font-size: 9px;
+  }  
+  .eum_theme_btn.eum_back.eum_invite{width: auto !important;}
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .eum_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .eum_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .eum_google_btn img, .eum_fb_btn img{
+      width: 18px !important;
+  }
+  .eum_hidden_pass{width: 15px;}
+  .eum_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .eum_form_mx_width {
+      max-width: 540px; 
+  }
+  .eum_modal .eum_signup_form{
+    padding: 37px 50px;
+  }
+  .order-1{order: -1 !important;}
+  .xs-100{order: 2 !important;}
+  .eum_signup_form .eum_remember{margin-bottom:5px !important;}
+  .eum_container { padding-left: 25px; }
+  .eum_select .dropdown-heading-dropdown-arrow span {border-width: 0px 5px 5px !important;}
+  .eum_container.eum_remember .eum_checkmark{
+    top: 2px !important; 
+  height: 16px;
+  width: 16px;
+}
+.eum_container.eum_remember .eum_checkmark:after{
+    left: 5px !important;
+  top: 3px;
+  width: 4px;
+  height: 7px; 
+  border-width: 0 2px 2px 0; 
+}
+  .eum_custom_caret:after { 
+    bottom: 10px;
+  }
+  .eum_select .dropdown-heading-value, .dropdown-heading{
+    font-size: 9px;
+    line-height: 18px !important;
+    height: 20px !important;
+  } 
+  .eum_select .dropdown-heading{
+    line-height: 10px !important;
+  }
+  .eum_custom_select,.eum_select .item-renderer input + span {
+    font-size: 9px !important;
+  }
+  .eum_select .item-renderer input + span:before{
+    top: 0px !important; 
+    height: 1rem;
+    width: 1rem;
+}
+.eum_select .item-renderer input:checked + span:after { 
+    left: 6px;
+    top: 4px;
+    width: 4px;
+    height: 7px; 
+    border-width: 0 2px 2px 0; 
+} 
+  .eum_form_upload_message p{
+    height: 50px !important; 
+    font-size: 9px !important;
+        height: 24px !important;
+  }
+  .eum_paste_btn .input-group-text{
+       height: 42px !important;
+    width: 42px !important;
+    padding: 4px !important;
+  }
+  .eum_theme_btn {margin: 30px 0 0px;}
+  
+  .eum_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .eum_signup_form label,.eum_signup_form label, .eum_signup_form label u{ font-size: 9px !important; }
+  .eum_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .eum_signup_form .remember {font-size: 12px; }
+  .eum_google_btn, .eum_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .eum_theme_btn {
+      width: 75px !important;
+    height: 24px;
+    font-size: 9px;
+  } 
+  .eum_theme_btn.eum_back.eum_invite{width: auto !important;}
+  .al_paste_btn .input-group-text { 
+    height: 60px !important;
+    width: 60px !important;}
+   .al_signup_header { 
+       padding: 32px 37px 32px 55px;
+       border-radius: 20px 20px 0px 0px;
+   }
+  .eum_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .eum_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .eum_google_btn img, .eum_fb_btn img{
+      width: 18px !important;
+  }
+  .eum_hidden_pass{width: 15px;}
+  .eum_signup_form .form-group{
+      margin-bottom: 10px;
+  }
+  .custom-control{margin-top: 15px;}
+  .eum_order-xs-2{order: 2;} 
+  .eum_order-xs-2 h4{text-align: center;}
+ .eum_order-xs-1{order: 1;text-align: center;}
+ .eum_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .eum_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .eum_order-xs-2{order: 2;} 
+  .eum_order-xs-2 h4{text-align: center;}
+ .eum_order-xs-1{order: 1;text-align: center;}
+ .eum_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .eum_signup_header {padding: 32px 37px 32px 37px;}
+ .eum_signup_body { padding:0px !important;}
+ .eum_modal .eum_signup_form { padding: 37px 30px !important; }
+}
+/* mobile screen end */

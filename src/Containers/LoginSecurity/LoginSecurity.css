@@ -1,0 +1,393 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.ls_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+.ls_main_wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.ls_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.ls_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+}
+.ls_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.ls_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+    padding: 60px 150px 60px;
+}
+.ls_signup_form label{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.ls_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+
+.ls_theme_btn{
+    width: 123px;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 18px;
+    margin-top: 415px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.ls_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.ls_google_btn:hover,.ls_fb_btn:hover,.ls_google_btn:focus,.ls_fb_btn:focus {
+    box-shadow: 0px 7px 10px #929eaa;
+}
+.ls_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.ls_theme_btn:hover{
+    background: #30679a !important;
+}
+.ls_back{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.ls_back{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.ls_back:hover{color: #fff;font-family: "MontserratBold";}
+.ls_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+    .ls_form_mx_width {
+        max-width: 540px; 
+    }
+    .ls_signup_form .exclaim_img img{width: 18px;}
+
+    .ls_theme_btn {margin: 270px 0 20px;}
+    .ls_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .ls_signup_form label { font-size: 10px; }
+    .ls_signup_form input { font-size: 10px;}
+    .ls_signup_form .remember {font-size: 12px; }
+    .ls_google_btn, .ls_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .ls_theme_btn {
+        width: 80px;
+        height: 26px;
+        font-size: 13px;
+    }
+    .ls_main_wrapper { height: 100vh; }
+    .ls_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .ls_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .ls_google_btn img, .ls_fb_btn img{
+        width: 20px !important;
+    }
+    .ls_hidden_pass{width: 15px;}
+    .ls_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+
+
+    /* old */
+    .ls_signup_form_main{margin: 30px 0px;} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:991px) and (max-width:1399px){
+    .ls_form_mx_width {
+        max-width: 540px; 
+    }
+    .ls_signup_form > img{width: 18px;}
+    .ls_theme_btn {margin: 270px 0 20px;}
+    .ls_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .ls_signup_form label { font-size: 9px; }
+    .ls_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .ls_signup_form .remember {font-size: 12px; }
+    .ls_google_btn, .ls_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .ls_theme_btn {
+        width: 70px;
+        height: 24px;
+        font-size: 11px;
+    }
+    .ls_main_wrapper { height: 100vh; }
+    .ls_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .ls_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .ls_google_btn img, .ls_fb_btn img{
+        width: 20px !important;
+    }
+    .ls_hidden_pass{width: 15px;}
+    .ls_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+
+
+    /* old */
+    .ls_signup_form_main{margin: 30px 0px;}
+    .ls_signup_form .exclaim_img img{width: 18px;} 
+} 
+
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+    .ls_form_mx_width {
+        max-width: 540px; 
+    }
+    .ls_signup_form > img{width: 18px;}
+    .ls_theme_btn {margin: 270px 0 20px;}
+    .ls_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .ls_signup_form label { font-size: 9px; }
+    .ls_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .ls_signup_form .remember {font-size: 12px; }
+    .ls_google_btn, .ls_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .ls_theme_btn {
+        width: 70px;
+    height: 24px;
+    font-size: 11px;
+    }
+    .ls_main_wrapper { height: 100vh; }
+    .ls_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .ls_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .ls_google_btn img, .ls_fb_btn img{
+        width: 18px !important;
+    }
+    .ls_hidden_pass{width: 15px;}
+    .ls_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+ 
+    /* old */
+    .ls_signup_form_main{margin: 30px 0px;} 
+    .ls_signup_form .exclaim_img img{width: 18px;}
+}
+
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+     .ls_form_mx_width {
+        max-width: 540px; 
+    }
+    .ls_signup_form > img{width: 18px;}
+    .ls_theme_btn {margin: 270px 0 20px;}
+    .ls_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .ls_signup_form label { font-size: 9px; }
+    .ls_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .ls_signup_form .remember {font-size: 12px; }
+    .ls_google_btn, .ls_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .ls_theme_btn {
+        width: 70px;
+    height: 24px;
+    font-size: 11px;
+    }
+    .ls_main_wrapper { height: 100vh; }
+    .ls_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .ls_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .ls_google_btn img, .ls_fb_btn img{
+        width: 18px !important;
+    }
+    .ls_hidden_pass{width: 15px;}
+    .ls_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}  
+    .ls_signup_form .exclaim_img img{width: 18px;}
+}
+
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+    .ls_form_mx_width {
+        max-width: 540px; 
+    }
+    .ls_signup_form > img{width: 18px;}
+    .ls_theme_btn {margin: 270px 0 20px;}
+    .ls_signup_header h4 {font-size: 14px; }
+    img[alt="Logo"] {  width: 60px !important; }
+    .ls_signup_form label { font-size: 9px; }
+    .ls_signup_form input { font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+    .ls_signup_form .remember {font-size: 12px; }
+    .ls_google_btn, .ls_fb_btn { 
+        font-size: 14px;
+        padding: 6px 17px;
+    }
+    .ls_theme_btn {
+        width: 70px;
+    height: 24px;
+    font-size: 11px;
+    }
+    .ls_main_wrapper { height: 100vh; }
+    .ls_signup_header { 
+        padding: 32px 37px 32px 55px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .ls_signup_body { 
+        border-radius: 0px 0px 20px 20px;
+        padding: 6px 90px;
+        margin-top: 22px;
+    }
+    .ls_google_btn img, .ls_fb_btn img{
+        width: 18px !important;
+    }
+    .ls_hidden_pass{width: 15px;}
+    .ls_signup_form .form-group{
+        margin-bottom: 0px;
+    }
+    .custom-control{margin-top: 15px;}
+    .ls_order-xs-2{order: 2;} 
+    .ls_order-xs-2 h4{text-align: center;}
+   .ls_order-xs-1{order: 1;text-align: center;}
+   .ls_order-xs-1 img{
+       float: initial !important;
+       margin-bottom: 10px;
+   }
+   .ls_signup_header {padding: 32px 37px 32px 37px;} 
+   .ls_signup_form .exclaim_img img{width: 18px;}
+}
+
+@media (min-width:0px) and (max-width:400px){
+    .ls_order-xs-2{order: 2;} 
+    .ls_order-xs-2 h4{text-align: center;}
+   .ls_order-xs-1{order: 1;text-align: center;}
+   .ls_order-xs-1 img{
+       float: initial !important;
+       margin-bottom: 10px;
+   }
+   .ls_signup_header {padding: 32px 37px 32px 37px;}
+   .ls_signup_body {padding: 6px 40px;}
+   .ls_signup_form .exclaim_img img{width: 18px;}
+}
+/* mobile screen end */

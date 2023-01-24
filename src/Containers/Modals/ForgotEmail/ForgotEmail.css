@@ -1,0 +1,489 @@
+
+body{
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+*{
+font-family: "Montserrat";
+font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+  outline: 0px !important;
+  border-color: #000 !important;
+  box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+
+.forgot_email_form_mx_width{
+  max-width: 868px;
+  margin: 0 auto;
+}
+.forgot_email_main_wrapper{
+  width: 100%;
+  /* height: 100vh; */
+}
+.forgot_email_image{
+  border-radius: 360px;
+  height: 154px;
+  width: 154px;
+}
+/* modal css */
+.forgot_email_modal .modal-content{
+border: 0px !important;
+background: none !important;
+}
+.forgot_email_modal_closed{
+background: #5A8BB9;
+  color: #e4f1fb;
+  padding: 5px 8px 6px 7px;
+  border-radius: 50px;
+  position: absolute;
+  top: 15px;
+  right: 27px;
+  cursor: pointer;
+  z-index: 999;
+}
+.forgot_email_modal .refresh_signup_form{
+padding: 37px 75px;
+}
+
+.forgot_email_paste_input{
+height: 60px !important;
+border: 1px solid #D9D9D9 !important;
+padding: 0px 13px 30px 11px !important;
+font-size: 14px !important;
+}
+.forgot_email_paste_input:focus{
+border: 1px solid #D9D9D9 !important;
+}
+.forgot_email_paste_btn .input-group-text{
+background: #F8F8F8 !important;
+height: 60px !important;
+width: 80px !important;
+text-align: center !important;
+justify-content: center !important;
+cursor: pointer;
+}
+.forgot_email_paste_input::placeholder{
+padding: 0px;
+color: #D9D9D9;
+}
+.forgot_email_signup_form_main{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.forgot_email_signup_header{
+  width: 100%;
+  height: auto;
+  padding: 60px 50px 60px 91px;
+  background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+}
+.forgot_email_signup_header h4{
+  font-family: "MontserratBold";
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  margin: 0;
+}
+.forgot_email_signup_body{
+  background: #fff;
+  border-radius: 0px 0px 40px 40px;
+  padding: 60px 150px 60px;
+}
+.forgot_email_signup_form label{
+  margin: 0px;
+  font-family: "MontserratBold";
+  color: #000;
+  font-size: 14px;
+}
+.forgot_email_signup_form input{
+  font-size: 16px;
+  border: 0px;
+  border-bottom: 1px solid #95989A;
+  border-radius: 0px;
+  padding: 5px 0px;
+  color: #000;
+  height: 24px;
+}
+.forgot_email_signup_form .remember{
+  text-align: left;
+  font-family: "Montserrat" ;
+  font-size:  14px ;
+  letter-spacing: 0;
+  color: #cccccc;
+  padding-top: 3px;
+}
+.custom-radio .custom-control-label.remember::before{
+  border: 1px solid #95989A;
+  background: #fff;
+}
+
+.forgot_email_theme_btn{
+  width: 123px;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+  float: right;
+  font-size: 18px;
+  margin-top: 230px;
+  margin-bottom: 18px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+}
+.forgot_email_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.forgot_email_google_btn:hover,.forgot_email_fb_btn:hover,.forgot_email_google_btn:focus,.forgot_email_fb_btn:focus {
+  box-shadow: 0px 7px 10px #929eaa;
+}
+.forgot_email_theme_btn:focus{
+  border: 1px solid #30679A;
+  outline: none !important;
+}
+.forgot_email_theme_btn:hover{
+  background: #30679a !important;
+}
+.forgot_email_back{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important; 
+}
+.forgot_email_back{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.forgot_email_back:hover{color: #fff;font-family: "MontserratBold";}
+.forgot_email_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+/* custom select */
+.forgot_email_select-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 0px;
+  padding: 5px 0px;
+  color: #000;
+  height: 24px;
+}
+.forgot_email_select-box__current {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 1px solid #95989A;
+}
+.forgot_email_select-box__current:focus{
+  border-bottom: 2px solid #30679A;
+}
+.forgot_email_select-box__current:focus + .forgot_email_select-box__list {
+  opacity: 1;
+  -webkit-animation-name: none;
+          animation-name: none;
+}
+.forgot_email_select-box__current:focus + .forgot_email_select-box__list .forgot_email_select-box__option {
+  cursor: pointer;
+}
+.forgot_email_select-box__current:focus .forgot_email_select-box__icon {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+.forgot_email_select-box__icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 14px;
+  transition: 0.2s ease;
+}
+.forgot_email_select-box__value {
+  display: flex;
+}
+.forgot_email_select-box__input {
+  display: none;
+}
+.forgot_email_select-box__input:checked + .forgot_email_select-box__input-text {
+  display: block;
+}
+.forgot_email_select-box__input-text {
+  display: none;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+.forgot_email_select-box__list {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  -webkit-animation-name: HideList;
+          animation-name: HideList;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: step-start;
+          animation-timing-function: step-start;
+          box-shadow: 0px 3px 6px #00000029;
+}
+.forgot_email_select-box__list li label{
+  font-family: "Montserrat";
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+}
+.forgot_email_select-box__option {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+}
+.forgot_email_select-box__option:hover, .forgot_email_select-box__option:focus {
+  color: #546c84;
+  background-color: #fbfbfb;
+}
+
+@-webkit-keyframes HideList {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+@keyframes HideList {
+  from {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  to {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .forgot_email_modal_closed { 
+    padding: 5px 7px 5px 7px; 
+    font-size: 12px;
+}
+  .forgot_email_form_mx_width {
+      max-width: 540px; 
+  }
+  .forgot_email_theme_btn {margin: 140px 0 35px;}
+  .forgot_email_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .forgot_email_signup_form label { font-size: 9px; }
+  .forgot_email_signup_form input {font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .forgot_email_signup_form .remember {font-size: 12px; }
+  .forgot_email_google_btn, .forgot_email_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .forgot_email_theme_btn {
+     width: 70px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .forgot_email_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .forgot_email_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .forgot_email_google_btn img, .forgot_email_fb_btn img{
+      width: 20px !important;
+  }
+  .forgot_email_hidden_pass{width: 15px;}
+  .forgot_email_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .forgot_email_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .forgot_email_form_mx_width {
+      max-width: 540px; 
+  }
+  .forgot_email_theme_btn {margin: 140px 0 35px;}
+  .forgot_email_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .forgot_email_signup_form label { font-size: 9px; }
+  .forgot_email_signup_form input {font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .forgot_email_signup_form .remember {font-size: 12px; }
+  .forgot_email_google_btn, .forgot_email_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .forgot_email_theme_btn {
+     width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .forgot_email_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .forgot_email_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .forgot_email_google_btn img, .forgot_email_fb_btn img{
+      width: 18px !important;
+  }
+  .forgot_email_hidden_pass{width: 15px;}
+  .forgot_email_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .forgot_email_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .forgot_email_form_mx_width {
+      max-width: 540px; 
+  }
+  .forgot_email_theme_btn {margin: 140px 0 35px;}
+  .forgot_email_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .forgot_email_signup_form label { font-size: 9px; }
+  .forgot_email_signup_form input {font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .forgot_email_signup_form .remember {font-size: 12px; }
+  .forgot_email_google_btn, .forgot_email_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .forgot_email_theme_btn {
+     width: 70px;
+    height: 24px;
+    font-size: 11px;
+  } 
+  .forgot_email_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .forgot_email_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .forgot_email_google_btn img, .forgot_email_fb_btn img{
+      width: 18px !important;
+  }
+  .forgot_email_hidden_pass{width: 15px;}
+  .forgot_email_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+
+  .forgot_email_form_mx_width {
+      max-width: 540px; 
+  }
+  .forgot_email_theme_btn {margin: 140px 0 35px;}
+  .forgot_email_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .forgot_email_signup_form label { font-size: 9px; }
+  .forgot_email_signup_form input {font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;}
+  .forgot_email_signup_form .remember {font-size: 12px; }
+  .forgot_email_google_btn, .forgot_email_fb_btn { 
+      font-size: 14px;
+      padding: 6px 17px;
+  }
+  .forgot_email_theme_btn {
+     width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .forgot_email_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .forgot_email_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .forgot_email_google_btn img, .forgot_email_fb_btn img{
+      width: 18px !important;
+  }
+  .forgot_email_hidden_pass{width: 15px;}
+  .forgot_email_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .forgot_email_order-xs-2{order: 2;} 
+  .forgot_email_order-xs-2 h4{text-align: center;}
+ .forgot_email_order-xs-1{order: 1;text-align: center;}
+ .forgot_email_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .forgot_email_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .forgot_email_order-xs-2{order: 2;} 
+  .forgot_email_order-xs-2 h4{text-align: center;}
+ .forgot_email_order-xs-1{order: 1;text-align: center;}
+ .forgot_email_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .forgot_email_signup_header {padding: 32px 37px 32px 37px;}
+ .forgot_email_signup_body {padding: 6px 40px;}
+}
+/* mobile screen end */

@@ -1,0 +1,631 @@
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.we_form_mx_width{
+    max-width: 868px;
+    margin: 0 auto;
+}
+.we_main_wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.we_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.we_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+}
+.we_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.we_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+    padding: 60px 150px 60px;
+}
+.we_signup_form label{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.we_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+.we_signup_form .remember{
+    text-align: left;
+    font-family: "Montserrat" ;
+    font-size:  14px ;
+    letter-spacing: 0;
+    color: #cccccc;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+.custom-radio .custom-control-label.remember::before{
+    border: 1px solid #95989A;
+    background: #fff;
+}
+
+.we_theme_btn{
+    width: 123px;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 18px;
+    margin-top: 185px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.we_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.we_google_btn:hover,.we_fb_btn:hover,.we_google_btn:focus,.we_fb_btn:focus {
+    box-shadow: 0px 7px 10px #929eaa;
+}
+.we_theme_btn:focus{
+    border: 1px solid #30679A;
+    outline: none !important;
+}
+.we_theme_btn:hover{
+    background: #30679a !important;
+}
+.we_back{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.we_back{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.we_back:hover{color: #fff;font-family: "MontserratBold";}
+.we_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.we_custom_select{
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  height: auto;
+  color: #000;
+  border-bottom: 1px solid #95989A;
+  appearance: none;
+  -webkit-appearance:none
+}
+.we_custom_select:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #30679A;
+}
+
+.we_custom_select optgroup {
+  font-size: 16px;
+  background: #fff;
+  padding: 115px 0px;
+}
+
+.we_custom_caret:after {
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #30679A;
+  pointer-events: none;
+}
+.we_custom_select:focus .we_custom_caret:after{
+  transform: rotate(180deg) !important;
+  display: none !important;
+}
+.we_select{position: relative;}
+/* custom select */
+.we_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .we_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .we_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .we_select-box__current:focus + .we_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .we_select-box__current:focus + .we_select-box__list .we_select-box__option {
+    cursor: pointer;
+  }
+  .we_select-box__current:focus .we_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .we_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .we_select-box__value {
+    display: flex;
+  }
+  .we_select-box__input {
+    display: none;
+  }
+  .we_select-box__input:checked + .we_select-box__input-text {
+    display: block;
+  }
+  .we_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .we_select-box__list {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .we_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .we_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .we_select-box__option:hover, .we_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+ 
+/* Customize the label (the container) */
+.we_container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.we_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.we_checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  border: 1px solid #95989A;
+  background: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.we_container:hover input ~ .we_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.we_container input:checked ~ .we_checkmark {
+  background-color: #346a9c;
+    border-radius: 50px;
+}
+
+/* Create the we_checkmark/indicator (hidden when not checked) */
+.we_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the we_checkmark when checked */
+.we_container input:checked ~ .we_checkmark:after {
+  display: block;
+}
+
+/* Style the we_checkmark/indicator */
+.we_container .we_checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+ 
+/* mobile screen end */
+.we_select{position: relative;}
+
+.we_custom_select{
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  height: auto;
+  color: #000;
+  border-bottom: 1px solid #95989A;
+  appearance: none;
+    -webkit-appearance:none
+}
+.we_custom_select:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #30679A;
+}
+
+.we_custom_select optgroup {
+  font-size: 16px;
+  background: #fff;
+  padding: 115px 0px;
+}
+
+.we_custom_caret:after {
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #30679A;
+    pointer-events: none;
+}
+.we_custom_select:focus .we_custom_caret:after{
+  transform: rotate(180deg) !important;
+  display: none !important;
+}
+  
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .we_form_mx_width {
+      max-width: 540px; 
+  }
+  .we_custom_select {
+    font-size: 9px;
+  }
+  .we_custom_caret:after {
+    bottom: 10px;
+}
+  .we_theme_btn {margin: 108px 0 20px;}
+  .we_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .we_signup_form label { font-size: 9px; }
+  .we_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .we_signup_form .remember {font-size: 9px; }
+  .we_google_btn, .we_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .we_theme_btn {
+    width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .we_main_wrapper { height: 100vh; }
+  .we_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .we_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .we_google_btn img, .we_fb_btn img{
+      width: 18px !important;
+  }
+  .we_hidden_pass{width: 15px;
+    top: -8px;}
+  .we_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .we_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .we_form_mx_width {
+      max-width: 540px; 
+  }
+  .we_custom_select {
+    font-size: 9px;
+  }
+  .we_theme_btn {margin: 108px 0 20px;}
+  .we_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .we_signup_form label { font-size: 9px; }
+  .we_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .we_signup_form .remember {font-size: 9px; }
+  .we_google_btn, .we_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .we_theme_btn {
+   width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .we_main_wrapper { height: 100vh; }
+  .we_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .we_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .we_google_btn img, .we_fb_btn img{
+      width: 18px !important;
+  }
+  .we_hidden_pass{width: 15px;
+    top: -8px;}
+  .we_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .we_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .we_form_mx_width {
+      max-width: 540px; 
+  }
+  .we_custom_select {
+    font-size: 9px;
+  }
+  .we_theme_btn {margin: 108px 0 20px;}
+  .we_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .we_signup_form label { font-size: 9px; }
+  .we_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .we_signup_form .remember {font-size: 9px; }
+  .we_google_btn, .we_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .we_theme_btn {
+   width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .we_main_wrapper { height: 100vh; }
+  .we_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .we_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .we_google_btn img, .we_fb_btn img{
+      width: 18px !important;
+  }
+  .we_hidden_pass{width: 15px;
+    top: -8px;}
+  .we_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+  .we_custom_select {
+    font-size: 9px;
+  }
+  .we_form_mx_width {
+      max-width: 540px; 
+  }
+  .we_theme_btn {margin: 108px 0 20px;}
+  .we_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .we_signup_form label { font-size: 9px; }
+  .we_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .we_signup_form .remember {font-size: 9px; }
+  .we_google_btn, .we_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .we_theme_btn {
+   width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  .we_main_wrapper { height: 100vh; }
+  .we_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .we_signup_body { 
+      border-radius: 0px 0px 20px 20px;
+      padding: 6px 90px;
+      margin-top: 22px;
+  }
+  .we_google_btn img, .we_fb_btn img{
+      width: 18px !important;
+  }
+  .we_hidden_pass{width: 15px;
+    top: -8px;}
+  .we_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .we_order-xs-2{order: 2;} 
+  .we_order-xs-2 h4{text-align: center;}
+ .we_order-xs-1{order: 1;text-align: center;}
+ .we_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .we_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .we_custom_select {
+    font-size: 9px;
+  }
+  .we_order-xs-2{order: 2;} 
+  .we_order-xs-2 h4{text-align: center;}
+ .we_order-xs-1{order: 1;text-align: center;}
+ .we_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .we_signup_header {padding: 32px 37px 32px 37px;}
+ .we_signup_body {padding: 6px 40px;}
+}
+/* mobile screen end */
+
+  

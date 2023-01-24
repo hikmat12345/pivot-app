@@ -1,0 +1,901 @@
+
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent linear-gradient(241deg, #5A8BB9 0%, #ECF6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+*{
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+a,a:hover{text-decoration: none;color: #fff;}
+.no-padding{padding: 0px !important;}
+.no-margin{margin: 0px !important;}
+input:focus{
+    outline: 0px !important;
+    border-color: #000 !important;
+    box-shadow:none !important;
+}
+input::placeholder{color: #95989A;}
+.em_form_mx_width{
+  max-width: 868px;
+  margin: 0 auto;
+} 
+.em_main_wrapper{
+  width: 100%; 
+}
+.em_signup_form_main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+.em_signup_header{
+    width: 100%;
+    height: auto;
+    padding: 60px 50px 60px 91px;
+    background: transparent linear-gradient(89deg, #30679A 0%, #EAF5FE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+.em_signup_header h4{
+    font-family: "MontserratBold";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+.em_signup_body{
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+}
+.em_project_modals .em_theme_btn{
+    width: 100%;
+    height: 37px;
+    background: #5A8BB9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #5A8BB94D !important;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "MontserratBold";
+    float: right;
+    font-size: 16px;
+    border: 0px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.em_project_modals .em_theme_btn a{
+    color: #fff;
+    font-family: "MontserratBold";
+}
+.em_project_modals .em_theme_btn:focus{
+    outline: none !important;
+    border: 1px solid #30679A;
+}
+.em_project_modals .em_theme_btn:hover{
+    background: #30679a !important;
+}
+
+.em_project_modals .em_modal_btn{
+    float: left;
+    border: 1px solid #30679A;
+    background: #fff;    
+    box-shadow: none !important;
+}
+.em_project_modals .em_modal_btn{
+    color: #5A8BB9;
+    font-family: "Montserrat";
+}
+.em_project_modals .em_modal_btn:hover{color: #fff;;box-shadow: 0px 5px 5px #5A8BB94D !important;}
+
+.em_project_modals{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #95989A;
+    padding: 6px 0px 0px;
+}
+.em_project_modals ul{
+    padding: 0px 50px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+.em_project_modals ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.em_modal_btn i{
+    background: #5a8bb9;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.em_modal_btn:hover i{
+    background: #fff;
+    color: #5a8bb9;
+}
+.em_theme_btn.em_sub{
+    width: 100%;
+    padding: 0px 10px;
+}
+.em_project_scroll{
+    width: 100%;
+    max-height: 308px;
+    overflow-y: scroll;
+    padding: 8px 75px;
+    border-bottom: 1px solid #95989A;
+}
+.em_project_scroll::-webkit-scrollbar-track
+{
+	background-color: #EAF5FE;
+}
+
+.em_project_scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #5A8BB9;
+}
+/* Buttons */
+.em_project_scroll::-webkit-scrollbar-button:single-button {
+    background-color: #5A8BB9;
+    display: block;
+    border-style: solid;
+    height: 15px;
+    width: 16px;
+  }
+  /* Up */
+  .em_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .em_project_scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-color: transparent transparent #fff transparent;
+  }
+  /* Down */
+  .em_project_scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 6px 6px 0 6px;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .em_project_scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-color: #000 transparent transparent transparent;
+  }
+
+.em_project_scroll::-webkit-scrollbar-thumb
+{
+    background-color: #5A8BB9;
+    border: 1px solid #30679A;
+}
+.em_project{
+    text-align: left !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.em_project li{
+    width: 100%;
+    position: relative;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 5px 5px #D9D9D94D;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+.em_projects_list{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-left: 14px solid #8EE952;
+    border-radius: 20px;
+    padding: 30px 0px;
+    padding-left: 15px;
+}
+.em_projects_list.em_red{
+    border-left: 14px solid #E95252 !important; 
+}
+.em_projects_list i{
+    background: #5A8BB9;
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+}
+.em_projects_list h4{
+    font-size: 14px;
+    font-family: "MontserratBold";
+    margin: 0;
+}
+.em_projects_list p{
+    font-size: 12px;
+    margin: 0;
+}
+.em_signup_form label,.em_signup_form label u{
+    margin: 0px;
+    font-family: "MontserratBold";
+    color: #000;
+    font-size: 14px;
+}
+.em_signup_form input{
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid #95989A;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+}
+
+.em_signup_form{
+    padding: 8px 75px;
+}
+/* custom select */
+.em_select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px;
+    color: #000;
+    height: 24px;
+  }
+  .em_select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #95989A;
+  }
+  .em_select-box__current:focus{
+    border-bottom: 2px solid #30679A;
+  }
+  .em_select-box__current:focus + .em_select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+  .em_select-box__current:focus + .em_select-box__list .em_select-box__option {
+    cursor: pointer;
+  }
+  .em_select-box__current:focus .em_select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+  .em_select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 14px;
+    transition: 0.2s ease;
+  }
+  .em_select-box__value {
+    display: flex;
+  }
+  .em_select-box__input {
+    display: none;
+  }
+  .em_select-box__input:checked + .em_select-box__input-text {
+    display: block;
+  }
+  .em_select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+  .em_select-box__list {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+            animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+            animation-timing-function: step-start;
+            box-shadow: 0px 3px 6px #00000029;
+  }
+  .em_select-box__list li label{
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+  }
+  .em_select-box__option {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .em_select-box__option:hover, .em_select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+  }
+  
+  @-webkit-keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  
+  @keyframes HideList {
+    from {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    to {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  .em_select{position: relative;}
+
+  .em_custom_select{
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    background: transparent;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    height: auto;
+    color: #000;
+    border-bottom: 1px solid #95989A;
+    appearance: none;
+    -webkit-appearance:none
+  }
+  .em_custom_select:focus{
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #30679A;
+  }
+  
+  .em_custom_select optgroup {
+    font-size: 16px;
+    background: #fff;
+    padding: 115px 0px;
+  }
+  
+  .em_custom_caret:after {
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #30679A;
+    pointer-events: none;
+  }
+  .em_custom_select:focus .em_custom_caret:after{
+    transform: rotate(180deg) !important;
+    display: none !important;
+  }
+/* modal css */
+.em_modal .modal-content{
+  border: 0px !important;
+  background: none !important;
+}
+.em_modal_closed{
+  background: #5A8BB9;
+    color: #e4f1fb;
+    padding: 5px 8px 6px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    cursor: pointer;
+    z-index: 999;
+}
+.em_modal .em_signup_form{
+  padding: 60px 150px 60px;;
+}
+/* bottom btn */
+.em_theme_btn{
+  width: 123px;
+  height: 37px;
+  background: #5A8BB9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #5A8BB94D !important;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "MontserratBold";
+  font-size: 18px;
+  border: 0px;
+  transition: all .4s;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.em_theme_btn a{
+  color: #fff;
+  font-family: "MontserratBold";
+}
+.em_google_btn:hover,.em_fb_btn:hover,.em_google_btn:focus,.em_fb_btn:focus {
+  box-shadow: 0px 7px 10px #929eaa;
+}
+.em_theme_btn:focus{
+  border: 1px solid #30679A;
+  outline: none !important;
+}
+.em_theme_btn:hover{
+  background: #30679a !important;
+}
+.em_back{
+  float: left;
+  border: 1px solid #30679A;
+  background: #fff;    
+  box-shadow: none !important;
+}
+.em_back{
+  color: #5A8BB9;
+  font-family: "Montserrat";
+}
+.em_back:hover{color: #fff;font-family: "MontserratBold";}
+.em_back:hover{box-shadow: 0px 5px 5px #5A8BB94D !important;}
+.em_paste_input{
+  height: 80px !important;
+  border: 1px solid #D9D9D9 !important;
+  padding: 0px 13px 30px 11px !important;
+  font-size: 14px !important;
+}
+.em_paste_input:focus{
+  border: 1px solid #D9D9D9 !important;
+}
+.em_paste_btn .input-group-text{
+  background: #F8F8F8 !important;
+  height: 80px !important;
+  width: 80px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+.em_paste_input::placeholder{
+  padding: 0px;
+  color: #D9D9D9;
+}
+.em_signup_form .em_remember{
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #cccccc;
+  padding-top: 6px;
+  margin-top: 10px;
+}
+.custom-radio .custom-control-label.em_remember::before{
+  border: 1px solid #95989A;
+  background: #fff;
+}
+/* end */
+
+
+/* Customize the label (the container) */
+.em_container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.em_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.em_checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  border: 1px solid #95989A;
+  background: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.em_container:hover input ~ .em_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.em_container input:checked ~ .em_checkmark {
+  background-color: #346a9c;
+    border-radius: 50px;
+}
+
+/* Create the em_checkmark/indicator (hidden when not checked) */
+.em_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the em_checkmark when checked */
+.em_container input:checked ~ .em_checkmark:after {
+  display: block;
+}
+
+/* Style the em_checkmark/indicator */
+.em_container .em_checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+ 
+/* mobile screen end */
+.em_select{position: relative;}
+
+.em_custom_select{
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  height: auto;
+  color: #000;
+  border-bottom: 1px solid #95989A;
+  appearance: none;
+	-webkit-appearance:none
+}
+.em_custom_select:focus{
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #30679A;
+}
+
+.em_custom_select optgroup {
+  font-size: 16px;
+  background: #fff;
+  padding: 115px 0px;
+}
+
+.em_custom_caret:after {
+	position: absolute;
+	bottom: 18px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #30679A;
+	pointer-events: none;
+}
+.em_custom_select:focus .em_custom_caret:after{
+  transform: rotate(180deg) !important;
+  display: none !important;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* wide screen end */
+@media (min-width:992px) and (max-width:1900px){
+  .em_form_mx_width {
+      max-width: 540px; 
+  }
+  .em_modal .em_signup_form{
+    padding: 37px 90px;;
+  }
+  .em_custom_caret:after { 
+    bottom: 10px;
+  }.em_custom_caret:after { 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #30679A; 
+}
+  .em_custom_select {
+    font-size: 9px;
+  }
+  .em_theme_btn {margin: 40px 0 0px;}
+  .em_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .em_signup_form label { font-size: 9px !important; }
+  .em_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .em_signup_form .remember {font-size: 9px; }
+  .em_google_btn, .em_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .em_theme_btn {
+    width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  
+  .em_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .em_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .em_google_btn img, .em_fb_btn img{
+      width: 18px !important;
+  }
+  .em_hidden_pass{width: 15px;
+    top: -8px;}
+  .em_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .em_signup_form_main{margin: 30px 0px;} 
+}
+/* wide screen end */
+/* desktop screen */
+@media (min-width:768px) and (max-width:991px){
+
+  .em_form_mx_width {
+      max-width: 540px; 
+  }
+  .em_modal .em_signup_form{
+    padding: 37px 90px;;
+  }
+  .em_custom_caret:after { 
+    bottom: 10px;
+  }.em_custom_caret:after { 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #30679A; 
+}
+  .em_custom_select {
+    font-size: 9px;
+  }
+  .em_theme_btn {margin: 40px 0 0px;}
+  .em_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .em_signup_form label { font-size: 9px !important; }
+  .em_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .em_signup_form .remember {font-size: 9px; }
+  .em_google_btn, .em_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .em_theme_btn {
+   width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  
+  .em_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .em_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .em_google_btn img, .em_fb_btn img{
+      width: 18px !important;
+  }
+  .em_hidden_pass{width: 15px;
+    top: -8px;}
+  .em_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+ 
+  .em_signup_form_main{margin: 30px 0px;} 
+}
+/* desktop screen end */
+/* tab screen */
+@media (min-width:567px) and (max-width:768px){
+
+   .em_form_mx_width {
+      max-width: 540px; 
+  }
+  .em_modal .em_signup_form{
+    padding: 37px 90px;;
+  }
+  .em_custom_caret:after { 
+    bottom: 10px;
+  }.em_custom_caret:after { 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #30679A; 
+}
+  .em_custom_select {
+    font-size: 9px;
+  }
+  .em_theme_btn {margin: 40px 0 0px;}
+  .em_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .em_signup_form label { font-size: 9px !important; }
+  .em_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .em_signup_form .remember {font-size: 9px; }
+  .em_google_btn, .em_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .em_theme_btn {
+   width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  
+  .em_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .em_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .em_google_btn img, .em_fb_btn img{
+      width: 18px !important;
+  }
+  .em_hidden_pass{width: 15px;
+    top: -8px;}
+  .em_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}  
+}
+/* tab screen end */
+/* mobile screen */
+@media (min-width:0px) and (max-width:567px){
+
+  .em_custom_select {
+    font-size: 9px;
+  }
+  .em_modal .em_signup_form { padding: 37px 50px !important; }
+  .em_custom_caret:after { 
+    bottom: 10px;
+  }.em_custom_caret:after { 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #30679A; 
+}
+  .em_form_mx_width {
+      max-width: 540px; 
+  }
+  .em_theme_btn {margin: 40px 0 0px;}
+  .em_signup_header h4 {font-size: 14px; }
+  img[alt="Logo"] {  width: 60px !important; }
+  .em_signup_form label { font-size: 9px !important; }
+  .em_signup_form input {
+    font-size: 9px;
+    padding: 2px 0px 5px;
+    height: 15px;
+}
+  .em_signup_form .remember {font-size: 9px; }
+  .em_google_btn, .em_fb_btn { 
+       font-size: 12px;
+    padding: 6px 17px;
+  }
+  .em_theme_btn {
+   width: 70px;
+    height: 24px;
+    font-size: 11px;
+  }
+  
+  .em_signup_header { 
+      padding: 32px 37px 32px 55px;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .em_signup_body { 
+      border-radius: 0px 0px 20px 20px; 
+  }
+  .em_google_btn img, .em_fb_btn img{
+      width: 18px !important;
+  }
+  .em_hidden_pass{width: 15px;
+    top: -8px;}
+  .em_signup_form .form-group{
+      margin-bottom: 0px;
+  }
+  .custom-control{margin-top: 15px;}
+  .em_order-xs-2{order: 2;} 
+  .em_order-xs-2 h4{text-align: center;}
+ .em_order-xs-1{order: 1;text-align: center;}
+ .em_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .em_signup_header {padding: 32px 37px 32px 37px;}
+ 
+}
+@media (min-width:0px) and (max-width:400px){
+  .em_custom_select {
+    font-size: 9px;
+  }
+  .em_custom_caret:after { 
+    bottom: 10px;
+  }.em_custom_caret:after { 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #30679A; 
+}
+  .em_order-xs-2{order: 2;} 
+  .em_order-xs-2 h4{text-align: center;}
+ .em_order-xs-1{order: 1;text-align: center;}
+ .em_order-xs-1 img{
+     float: initial !important;
+     margin-bottom: 10px;
+ }
+ .em_signup_header {padding: 32px 37px 32px 37px;}
+ .em_signup_body { padding:0px !important;}
+ .em_modal .em_signup_form { padding: 37px 30px !important; }
+}
+/* mobile screen end */
+
+  
